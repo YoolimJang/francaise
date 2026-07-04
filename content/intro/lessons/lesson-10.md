@@ -1,0 +1,23 @@
+---
+title: 10과. 취미와 의무
+slug: lesson-10
+order: 10
+summary: 취미와 이유 말하기, 의무 표현하기.
+render: prose
+---
+## 취미 말하기
+**J'aime + 동사원형** /ʒɛm/ — ~하는 걸 좋아해요 (aimer + 동사원형)
+- J'aime faire du sport. — 저는 운동하는 걸 좋아해요.
+- J'aime voyager. — 저는 여행하는 걸 좋아해요.
+
+**parce que + 주어 + 동사** /paʁs kə/ — 왜냐하면 ~ (이유)
+- J'aime le sport parce que c'est amusant. — 재밌어서 운동을 좋아해요.
+- Je reste, parce qu'il pleut. — 비가 와서 남을게요.
+
+## 의무 말하기
+**devoir + 동사원형** /də.vwaʁ/ — ~해야 한다
+- Je dois faire mes devoirs. — 저는 숙제를 해야 해요.
+- Tu dois partir maintenant. — 너 지금 가야 해.
+
+> devoir 현재형
+> je dois · tu dois · il doit · nous devons · vous devez · ils doivent

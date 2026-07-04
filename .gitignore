@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+next-env.d.ts
+.playwright-mcp
+
+# Obsidian
+Franciase Data/.obsidian/

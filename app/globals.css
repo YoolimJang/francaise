@@ -1,0 +1,145 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Analog editorial monochrome — warm paper, near-black ink */
+  --paper: 40 20% 98%;
+  --paper-raised: 40 18% 96%;
+  --ink: 30 8% 10%;
+  --ink-muted: 30 5% 38%;
+  --ink-faint: 30 4% 60%;
+  --line: 30 8% 82%;
+  --accent: 30 8% 10%;
+  --font-sans: "Pretendard Variable", "Pretendard";
+}
+
+.dark {
+  --paper: 30 6% 9%;
+  --paper-raised: 30 5% 13%;
+  --ink: 40 15% 94%;
+  --ink-muted: 40 6% 66%;
+  --ink-faint: 40 5% 46%;
+  --line: 30 5% 26%;
+  --accent: 40 15% 94%;
+}
+
+* {
+  border-color: hsl(var(--line));
+}
+
+body {
+  background-color: hsl(var(--paper));
+  color: hsl(var(--ink));
+  font-family: var(--font-sans), "Pretendard Variable", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv01";
+}
+
+/* Editorial label — small caps, letter-spaced */
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(var(--ink-muted));
+}
+
+/* French display text uses serif for that print feel */
+.font-display {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+/* Prose styling for grammar markdown */
+.prose-editorial {
+  color: hsl(var(--ink));
+  line-height: 1.75;
+}
+.prose-editorial h2 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+.prose-editorial h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.prose-editorial p {
+  margin-bottom: 1rem;
+  max-width: 68ch;
+}
+.prose-editorial ul,
+.prose-editorial ol {
+  margin: 0.5rem 0 1.25rem 1.1rem;
+  list-style: disc;
+}
+.prose-editorial ol {
+  list-style: decimal;
+}
+.prose-editorial li {
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+}
+.prose-editorial strong {
+  font-weight: 700;
+}
+.prose-editorial em {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+}
+.prose-editorial code {
+  font-family: var(--font-serif), Georgia, serif;
+  background: hsl(var(--paper-raised));
+  border: 1px solid hsl(var(--line));
+  padding: 0.05rem 0.35rem;
+  font-size: 0.95em;
+  font-style: italic;
+}
+.prose-editorial blockquote {
+  border-left: 2px solid hsl(var(--ink));
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  color: hsl(var(--ink-muted));
+}
+.prose-editorial table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.9rem;
+}
+.prose-editorial th {
+  text-align: left;
+  border-bottom: 1.5px solid hsl(var(--ink));
+  padding: 0.5rem 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.prose-editorial td {
+  border-bottom: 1px solid hsl(var(--line));
+  padding: 0.5rem 0.75rem;
+}
+.prose-editorial a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+::selection {
+  background: hsl(var(--ink));
+  color: hsl(var(--paper));
+}
+
+/* Thin scrollbar */
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: hsl(var(--line)); }
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }

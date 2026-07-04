@@ -1,0 +1,24 @@
+---
+title: 11과. 주문과 계산
+slug: lesson-11
+order: 11
+summary: 정중하게 주문하고 가격 묻고 계산하기.
+render: prose
+---
+## 주문하기
+**Je voudrais + 명사, s'il vous plaît** /ʒə vu.dʁɛ/ — ~ 주세요 (정중, vouloir 조건법)
+- Je voudrais une baguette, s'il vous plaît. — 바게트 하나 주세요.
+- Je voudrais un café, s'il vous plaît. — 커피 하나 주세요.
+
+**Ça coûte combien ? / C'est combien ?** /sa kut kɔ̃.bjɛ̃/ — 얼마예요?
+- Ça coûte combien ? — Deux euros. — 얼마예요? — 2유로예요.
+- C'est combien, en tout ? — 다 해서 얼마예요?
+
+## 점원 표현 & 대답
+**Vous voulez autre chose ?** /vu vu.le otʁ ʃoz/ — 다른 거 필요하세요?
+- Vous voulez autre chose ? — Non merci. — 더 필요하세요? — 아니요, 됐어요.
+- Vous voulez autre chose ? — Oui, un thé. — 더요? — 네, 차 하나요.
+
+**Ce sera tout** /sə sə.ʁa tu/ — 그거면 다예요 (그게 전부예요)
+- Ce sera tout, merci. — 그거면 됐어요, 고마워요.
+- Et avec ça ? — Ce sera tout. — 더 필요하세요? — 그거면 돼요.

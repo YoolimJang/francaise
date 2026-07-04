@@ -1,0 +1,33 @@
+---
+title: 국가 언어 국적 (Pays, langues, nationalités)
+slug: pays-langues-nationalites
+order: 4
+summary: 국가명의 성 언어명 국적 형용사와 대소문자 규칙.
+group: 관사·명사·형용사
+render: prose
+---
+- **국가명(pays)**엔 성(性)이 있다: 대개 -e로 끝나면 여성(la France), 그 외 남성(le Japon).
+- **언어(langue)**는 국적 형용사의 남성형과 같고, 항상 남성·소문자: le français.
+- **국적 형용사(nationalité)**는 성·수에 따라 변하고, 사람을 가리킬 땐 대문자로 명사처럼 쓰기도 한다.
+
+| 국가 (le/la) | 언어 | 국적(남성) | 국적(여성) | IPA(여성) |
+|---|---|---|---|---|
+| la France | le français | français | française | /fʁɑ̃.sɛz/ |
+| la Corée | le coréen | coréen | coréenne | /kɔ.ʁe.ɛn/ |
+| le Japon | le japonais | japonais | japonaise | /ʒa.pɔ.nɛz/ |
+| la Chine | le chinois | chinois | chinoise | /ʃi.nwaz/ |
+| l'Angleterre | l'anglais | anglais | anglaise | /ɑ̃.ɡlɛz/ |
+| l'Allemagne | l'allemand | allemand | allemande | /al.mɑ̃d/ |
+| l'Espagne | l'espagnol | espagnol | espagnole | /ɛs.pa.ɲɔl/ |
+| l'Italie | l'italien | italien | italienne | /i.ta.ljɛn/ |
+| les États-Unis | l'anglais | américain | américaine | /a.me.ʁi.kɛn/ |
+
+## 예문
+
+- Je suis **coréen / coréenne**. (나는 한국 사람이다.)
+- Je parle **français**. (나는 프랑스어를 한다.) — 언어 앞엔 관사 없이 parler + 언어.
+- J'habite en **France**. (나는 프랑스에 산다.)
+
+> 대소문자 규칙
+> - 나라 이름·사람(국적 명사): 대문자 → un **F**rançais (프랑스 남자).
+> - 언어·형용사: 소문자 → Il est **f**rançais. / le **f**rançais.

@@ -1,0 +1,36 @@
+---
+title: 의문사 (Les mots interrogatifs)
+slug: interrogatifs
+order: 8
+summary: 주요 의문사와 의문 형용사 quel que vs quoi.
+group: 전치사·의문사
+render: prose
+---
+| 의문사 | IPA | 뜻 | 예문 | 예문 뜻 |
+|---|---|---|---|---|
+| quel / quelle | /kɛl/ | 어떤, 무슨 (명사 수식) | **Quelle** heure est-il ? | 몇 시야? |
+| que (qu') | /kə/ | 무엇을 (동사 앞) | **Que** fais-tu ? | 뭐 해? |
+| quoi | /kwa/ | 무엇 (전치사 뒤·문미) | Tu fais **quoi** ? | 뭐 해? |
+| qui | /ki/ | 누구 | **Qui** est-ce ? | 누구야? |
+| comment | /kɔ.mɑ̃/ | 어떻게 | **Comment** ça va ? | 어떻게 지내? |
+| où | /u/ | 어디 | Tu habites **où** ? | 어디 살아? |
+| pourquoi | /puʁ.kwa/ | 왜 | **Pourquoi** ? — Parce que... | 왜? — 왜냐하면 |
+| quand | /kɑ̃/ | 언제 | **Quand** pars-tu ? | 언제 떠나? |
+| combien | /kɔ̃.bjɛ̃/ | 얼마나(수·양) | C'est **combien** ? | 얼마예요? |
+| combien de | /kɔ̃.bjɛ̃.də/ | 몇 개의 | **Combien de** frères ? | 형제가 몇? |
+
+## quel — 의문 형용사 (성·수 일치)
+
+꾸미는 명사에 맞춰 형태가 변한다.
+
+| | 단수 | 복수 |
+|---|---|---|
+| 남성 | quel | quels |
+| 여성 | quelle | quelles |
+
+- **Quel** âge as-tu ? (몇 살이야?)
+- **Quelle** est ta couleur préférée ? (좋아하는 색은?)
+- **Quels** sports aimes-tu ? / **Quelles** langues parles-tu ?
+
+> que vs quoi
+> 같은 "무엇"이지만 위치가 다르다. **que**는 동사 앞(Que fais-tu ?), **quoi**는 전치사 뒤나 문장 끝(À quoi penses-tu ? / Tu fais quoi ?).
