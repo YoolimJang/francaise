@@ -1,13 +1,11 @@
 ---
-title: 관사 (Les articles)
+title: "관사 (Les articles)"
 slug: articles
 order: 1
-summary: 부정관사 정관사 부분관사와 축약 부정문의 de.
-group: 관사·명사·형용사
+group: "관사·명사·형용사"
 render: prose
 ---
 ## 1. 부정관사 / 정관사
-
 | | 남성 단수 | 여성 단수 | 복수 |
 |---|---|---|---|
 | **부정관사** (막연한, 처음 언급) | un /œ̃/ | une /yn/ | des /de/ |
@@ -18,7 +16,6 @@ render: prose
 - **le / la**는 모음·무음h 앞에서 **l'**로 축약: l'ami, l'école, l'hôtel.
 
 ## 2. 부분관사 (les articles partitifs) — 셀 수 없는 양의 일부
-
 | 남성 | 여성 | 복수 |
 |---|---|---|
 | du /dy/ | de la /də.la/ | des /de/ |
@@ -28,7 +25,6 @@ render: prose
 - 모음 앞: **de l'** → Je bois de l'eau. (물을 마신다.)
 
 ## 3. 정관사 축약 (à / de + le/les)
-
 | | + le | + les | + la | + l' |
 |---|---|---|---|---|
 | **à** | au | aux | à la | à l' |
@@ -41,15 +37,13 @@ render: prose
 - ⚠️ à la / à l' / de la / de l' 는 축약하지 않음.
 
 ## 4. 부정문에서 de
-
 부정문(ne...pas)에서 부정·부분관사는 **de(d')**로 바뀐다.
-
 - J'ai **un** frère. → Je n'ai pas **de** frère. (형제가 없다.)
 - Je bois **du** café. → Je ne bois pas **de** café.
 - ⚠️ 단, être 뒤에서는 안 바뀜: Ce n'est pas **un** livre.
 
 ## 5. 관사의 생략
-
 - 직업·국적 (être 뒤): Je suis **∅** étudiant. (나는 학생이다.)
 - 언어 (parler 뒤): Je parle **∅** français.
 - 호칭·나열·표지판 등.
+

@@ -1,9 +1,8 @@
 ---
-title: 시간 표현 (Le temps qui passe)
+title: "시간 표현 (Le temps qui passe)"
 slug: temps
 order: 4
-summary: 하루의 때, 시점, 빈도, 약속 관련 단어
-group: 시간
+group: "시간"
 render: vocab
 items:
   - { fr: "matin", ipa: "/ma.tɛ̃/", ko: "아침", gender: "m" }
@@ -19,8 +18,8 @@ items:
   - { fr: "demain", ipa: "/də.mɛ̃/", ko: "내일" }
   - { fr: "hier", ipa: "/jɛʁ/", ko: "어제" }
   - { fr: "maintenant", ipa: "/mɛ̃t.nɑ̃/", ko: "지금" }
-  - { fr: "un instant", ipa: "/œ̃.n‿ɛ̃s.tɑ̃/", ko: "잠깐", gender: "m" }
-  - { fr: "prochain / prochaine", ipa: "/pʁɔ.ʃɛ̃/", ko: "다음의" }
+  - { fr: "instant", ipa: "/œ̃.n‿ɛ̃s.tɑ̃/", ko: "잠깐", gender: "m" }
+  - { fr: "prochain(e)", ipa: "/pʁɔ.ʃɛ̃/", ko: "다음의", gender: "m/f" }
   - { fr: "âge", ipa: "/ɑʒ/", ko: "나이", gender: "m" }
   - { fr: "souvent", ipa: "/su.vɑ̃/", ko: "자주" }
   - { fr: "bientôt", ipa: "/bjɛ̃.to/", ko: "곧" }
@@ -35,8 +34,3 @@ items:
   - { fr: "en retard", ipa: "/ɑ̃ ʁə.taʁ/", ko: "늦은, 지각한" }
 ---
 
-때, 시점, 빈도를 나타내는 단어들이다. 요일, 월, 계절은 별도 항목을 참고한다.
-
-- 하루의 때: le matin, le midi, l'après-midi, le soir
-- 시각: midi(정오 12시), minuit(자정), et demie(30분), moins le quart(15분 전)
-- 약속: un rendez-vous, à l'heure(정시에) / en retard(늦은)

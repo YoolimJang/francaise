@@ -1,9 +1,8 @@
 ---
-title: 긍정 대답 Si
+title: "부정의문문에 대한 긍정 답변 Si"
 slug: reponse-si
 order: 30
-summary: 부정의문문에 긍정으로 반박할 때 쓰는 si.
-group: 기타 구문
+group: "기타 구문"
 render: prose
 ---
 부정으로 물었을 때 "**아니, 그렇거든**"이라고 뒤집어 대답할 땐 oui가 아니라 **si**를 쓴다.
@@ -16,10 +15,10 @@ render: prose
 | 부정 질문에 부정 답 | **Non** | 응(안 그래) |
 
 ## 예문
-
 - Tu **n'**aimes **pas** le café ? — **Si**, j'aime le café ! (커피 안 좋아해? — 아니, 좋아해!)
 - Tu **ne** viens **pas** ? — **Si**, je viens. (안 와? — 아니, 가.)
 - Tu n'as pas faim ? — **Non**, je n'ai pas faim. (배 안 고파? — 응, 안 고파.)
 
-> 포인트
+> **포인트**
 > 한국어 "아니/응"과 반대로 움직여 헷갈림. 프랑스어 **si**는 "부정을 부정 = 긍정"을 명확히 표시하는 전용 답. 긍정 질문엔 절대 si를 쓰지 않는다.
+

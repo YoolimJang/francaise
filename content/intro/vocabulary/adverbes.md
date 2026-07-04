@@ -1,14 +1,13 @@
 ---
-title: 부사·연결어 (Adverbes et connecteurs)
+title: "부사·연결어·짧은 표현 (Adverbes, connecteurs, expressions)"
 slug: adverbes
 order: 6
-summary: 문장을 잇거나 꾸미는 기능어와 짧은 관용 표현
-group: 감정·기능어
+group: "감정·기능어"
 render: vocab
 items:
   - { fr: "très", ipa: "/tʁɛ/", ko: "매우" }
   - { fr: "aussi", ipa: "/o.si/", ko: "또한, ~도" }
-  - { fr: "un peu", ipa: "/œ̃ pø/", ko: "조금" }
+  - { fr: "peu", ipa: "/œ̃ pø/", ko: "조금" }
   - { fr: "moins", ipa: "/mwɛ̃/", ko: "덜, 더 적게" }
   - { fr: "ensemble", ipa: "/ɑ̃.sɑ̃bl/", ko: "함께" }
   - { fr: "juste", ipa: "/ʒyst/", ko: "딱, 그저" }
@@ -34,7 +33,7 @@ items:
   - { fr: "c'est dommage", ipa: "/sɛ dɔ.maʒ/", ko: "아쉽네요" }
   - { fr: "au total", ipa: "/o tɔ.tal/", ko: "총, 합쳐서" }
   - { fr: "par an", ipa: "/pa.ʁɑ̃/", ko: "1년에" }
-  - { fr: "une fois", ipa: "/yn fwa/", ko: "한 번" }
+  - { fr: "fois", ipa: "/yn fwa/", ko: "한 번" }
   - { fr: "trop de", ipa: "/tʁo də/", ko: "너무 많은" }
   - { fr: "plein de", ipa: "/plɛ̃ də/", ko: "많은 (구어)" }
   - { fr: "en or", ipa: "/ɑ̃.n‿ɔʁ/", ko: "금으로 된; 최고인" }
@@ -42,6 +41,3 @@ items:
   - { fr: "à pied", ipa: "/a pje/", ko: "걸어서" }
 ---
 
-문장을 잇거나 꾸미는 기능어와 자주 쓰는 짧은 관용 표현이다. 부사와 표현은 성이 없다.
-
-방향, 이동 표현(tout droit, là-bas)은 방향 항목을 참고한다.

@@ -1,8 +1,7 @@
 ---
-title: 1과. 기본 인사
+title: "1과. 기본 인사 (Les salutations)"
 slug: lesson-01
 order: 1
-summary: 인사와 기본 예의 표현, 안부 묻고 답하기.
 render: prose
 ---
 ## 기본 예의 표현
@@ -79,3 +78,4 @@ render: prose
 **Et vous ? / Et toi ?** /e vu/ · /e twa/ — 당신은? / 너는?
 - Ça va bien. Et toi ? — 잘 지내. 너는?
 - Je vais bien. Et vous ? — 잘 지내요. 당신은요?
+

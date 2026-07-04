@@ -1,8 +1,7 @@
 ---
-title: 8과. 가까운 미래와 날짜
+title: "8과. 가까운 미래·날짜와 요일 (Le futur proche et la date)"
 slug: lesson-08
 order: 8
-summary: 가까운 미래 표현과 요일·날짜 말하기.
 render: prose
 ---
 ## 가까운 미래 (futur proche)
@@ -20,5 +19,6 @@ render: prose
 - On est quelle date, aujourd'hui ? — 오늘 며칠이에요?
 - On est le 7 février 2024. — 2024년 2월 7일이에요.
 
-> 날짜 형식
+> **날짜 형식**
 > **On est le + 숫자 + 월 (+ 연도)**. 1일만 서수 premier: le 1er mai.
+

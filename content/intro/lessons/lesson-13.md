@@ -1,8 +1,7 @@
 ---
-title: 13과. 길 묻기와 안내
+title: "13과. 길 묻고 안내하기 (Demander et indiquer le chemin)"
 slug: lesson-13
 order: 13
-summary: 길을 묻고 안내하며 거리 확인하기.
 render: prose
 ---
 ## 길 묻기
@@ -30,3 +29,4 @@ render: prose
 **C'est loin ?** /sɛ lwɛ̃/ — 멀어요?
 - C'est loin ? — Non, c'est à 10 minutes en bus. — 멀어요? — 아뇨, 버스로 10분이에요.
 - C'est loin d'ici ? — 여기서 멀어요?
+

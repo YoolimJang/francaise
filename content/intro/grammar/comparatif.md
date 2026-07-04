@@ -1,9 +1,8 @@
 ---
-title: 비교급 (Le comparatif)
+title: "비교급 (plus~que, moins~que, aussi~que)"
 slug: comparatif
 order: 31
-summary: plus moins aussi que 비교 특수 비교급 수량 비교.
-group: 기타 구문
+group: "기타 구문"
 render: prose
 ---
 형용사·부사 앞에 정도 표현을 붙여 둘을 비교한다.
@@ -16,10 +15,9 @@ render: prose
 | moins ... que | 덜 ~한 (열등) | Elle est **moins** grande **que** lui. | 그녀는 그보다 작다 |
 | aussi ... que | ~만큼 (동등) | Tu es **aussi** grand **que** Paul. | 폴만큼 크다 |
 
-- 비교 대상 뒤엔 **강세형 대명사**: que **moi**, que **lui**, que **elle** (인칭대명사 참고).
+- 비교 대상 뒤엔 **강세형 대명사**: que **moi**, que **lui**, que **elle** (인칭대명사).
 
 ## 특수 비교급 (불규칙)
-
 | 원급 | 비교급 | 뜻 |
 |---|---|---|
 | bon (좋은) | **meilleur** | 더 좋은 |
@@ -29,10 +27,10 @@ render: prose
 - Elle chante **mieux que** moi. (그녀는 나보다 노래를 잘한다.)
 
 ## 수량 비교 (plus de / moins de + 명사)
-
 - J'ai **plus de** livres **que** toi. (너보다 책이 많아.)
 - Il y a **moins d'**eau. (물이 더 적다.)
 
-> 포인트
+> **포인트**
 > - 형용사 비교: plus **grand** que. 수량 비교: plus **de** livres que.
 > - *plus bon* ❌ → **meilleur** ⭕.
+

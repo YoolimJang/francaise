@@ -1,13 +1,12 @@
 ---
-title: 가족 (La famille)
+title: "가족 (La famille)"
 slug: famille
 order: 8
-summary: 부모 형제 친척을 가리키는 명사
-group: 사람·일상
+group: "사람·일상"
 render: vocab
 items:
   - { fr: "famille", ipa: "/fa.mij/", ko: "가족", gender: "f" }
-  - { fr: "parents", ipa: "/pa.ʁɑ̃/", ko: "부모 (복수)", gender: "m" }
+  - { fr: "les parents", ipa: "/pa.ʁɑ̃/", ko: "부모" }
   - { fr: "père", ipa: "/pɛʁ/", ko: "아버지", gender: "m" }
   - { fr: "mère", ipa: "/mɛʁ/", ko: "어머니", gender: "f" }
   - { fr: "papa", ipa: "/pa.pa/", ko: "아빠", gender: "m" }
@@ -24,14 +23,10 @@ items:
   - { fr: "cousine", ipa: "/ku.zin/", ko: "사촌(여)", gender: "f" }
   - { fr: "mari", ipa: "/ma.ʁi/", ko: "남편", gender: "m" }
   - { fr: "femme", ipa: "/fam/", ko: "아내, 여자", gender: "f" }
-  - { fr: "enfant", ipa: "/ɑ̃.fɑ̃/", ko: "아이", gender: "m/f" }
-  - { fr: "copain", ipa: "/kɔ.pɛ̃/", ko: "(남)친구, 남자친구", gender: "m" }
-  - { fr: "copine", ipa: "/kɔ.pin/", ko: "(여)친구, 여자친구", gender: "f" }
+  - { fr: "enfant", ipa: "/f) /", ko: "아이", gender: "m/f" }
+  - { fr: "copain", ipa: "/kɔ.pɛ̃/", ko: "친구, 남자친구", gender: "m" }
+  - { fr: "copine", ipa: "/kɔ.pin/", ko: "친구, 여자친구", gender: "f" }
   - { fr: "garçon", ipa: "/ɡaʁ.sɔ̃/", ko: "소년", gender: "m" }
   - { fr: "tout le monde", ipa: "/tu lə mɔ̃d/", ko: "모두 (단수 취급)", gender: "m" }
 ---
 
-## 예문
-
-- Voici **ma** famille. — 이건 우리 가족이야.
-- J'ai **un** frère et **une** sœur. — 나는 형제 하나, 자매 하나 있어.

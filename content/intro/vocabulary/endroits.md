@@ -1,9 +1,8 @@
 ---
-title: 장소 (Les endroits)
+title: "장소 (Les endroits)"
 slug: endroits
 order: 21
-summary: 집 학교 식당 등 일상의 장소
-group: 사물·장소
+group: "사물·장소"
 render: vocab
 items:
   - { fr: "maison", ipa: "/mɛ.zɔ̃/", ko: "집", gender: "f" }
@@ -29,10 +28,3 @@ items:
   - { fr: "château", ipa: "/ʃɑ.to/", ko: "성(城)", gender: "m" }
 ---
 
-"~에 가다" aller à/au/à la + 장소, "~에 있다" être à/au/à la + 장소.
-
-## 예문
-
-- Je vais **au** café. — 카페에 간다.
-- Je suis **à la** maison. — 집에 있어.
-- Il travaille **à l'**hôpital. — 그는 병원에서 일한다.

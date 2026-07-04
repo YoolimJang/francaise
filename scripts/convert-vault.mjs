@@ -131,16 +131,19 @@ function termsItems(body) {
   const items = [];
   for (const line of body.split("\n")) {
     const m = line.match(/^\*\*(.+?)\*\*(.*)$/);
-    if (!m || !/[—-]/.test(m[2])) continue;
-    let term = m[1].trim();
-    let rest = m[2];
+    // A real vocab entry is "**term** [(gender)] /ipa/ [한글] — 뜻".
+    // Require both an IPA and the em-dash meaning separator so usage
+    // notes (e.g. "**jouer à** + 구기 / **faire de** + ...") are skipped.
+    if (!m) continue;
+    const rest = m[2];
+    const ipa = rest.match(/\/[^/]+\//);
+    if (!ipa || !rest.includes("—")) continue;
     const item = {};
     const gm = rest.match(/\((m\/f|m|f)\)/);
     if (gm) item.gender = gm[1];
-    const ipa = rest.match(/\/[^/]+\//);
-    if (ipa) item.ipa = ipa[0];
-    const ko = rest.split(/\s[—-]\s/).pop().trim();
-    item.fr = item.gender ? stripArticle(term) : term;
+    item.ipa = ipa[0];
+    const ko = rest.split("—").pop().trim();
+    item.fr = item.gender ? stripArticle(m[1].trim()) : m[1].trim();
     if (ko) item.ko = ko;
     items.push(item);
   }
@@ -196,7 +199,18 @@ function processJob(cat, job) {
       render: "prose", body: merged != null ? merged.trim() + "\n" : cleanProse(body),
     });
   } else {
-    const items = job.parser === "terms" ? termsItems(body) : tableItems(body, job.kind);
+    // Auto-detect format: vault mixes markdown tables and **bold** term
+    // lists, and files sometimes switch between them. Pick whichever
+    // parser yields more items. (letters are always tables.)
+    let items;
+    if (job.kind === "letters") {
+      items = tableItems(body, "letters");
+    } else {
+      const t = tableItems(body, "vocab");
+      const b = termsItems(body);
+      items = b.length > t.length ? b : t;
+    }
+    if (!items.length) console.warn(`  ! ${job.src}: 항목 0개 (형식 확인 필요)`);
     const render = job.kind === "letters" ? "letters" : "vocab";
     writeTopic(cat, { slug: job.slug, title, order: job.order, group: job.group, render, items });
   }

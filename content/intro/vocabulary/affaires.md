@@ -1,19 +1,18 @@
 ---
-title: 소지품 (Les affaires)
+title: "소지품·사물 (Les affaires)"
 slug: affaires
 order: 10
-summary: 가방 전화기 등 일상 소지품
-group: 사람·일상
+group: "사람·일상"
 render: vocab
 items:
   - { fr: "sac", ipa: "/sak/", ko: "가방", gender: "m" }
   - { fr: "sac à dos", ipa: "/sak a do/", ko: "배낭", gender: "m" }
   - { fr: "portefeuille", ipa: "/pɔʁ.tə.fœj/", ko: "지갑", gender: "m" }
-  - { fr: "clés", ipa: "/kle/", ko: "열쇠 (복수)", gender: "f" }
+  - { fr: "les clés", ipa: "/kle/", ko: "열쇠" }
   - { fr: "téléphone", ipa: "/te.le.fɔn/", ko: "전화기", gender: "m" }
   - { fr: "portable", ipa: "/pɔʁ.tabl/", ko: "휴대폰", gender: "m" }
   - { fr: "ordinateur", ipa: "/ɔʁ.di.na.tœʁ/", ko: "컴퓨터", gender: "m" }
-  - { fr: "lunettes", ipa: "/ly.nɛt/", ko: "안경 (복수)", gender: "f" }
+  - { fr: "les lunettes", ipa: "/ly.nɛt/", ko: "안경" }
   - { fr: "stylo", ipa: "/sti.lo/", ko: "볼펜", gender: "m" }
   - { fr: "crayon", ipa: "/kʁɛ.jɔ̃/", ko: "연필", gender: "m" }
   - { fr: "cahier", ipa: "/ka.je/", ko: "공책", gender: "m" }
@@ -28,7 +27,3 @@ items:
   - { fr: "soleil", ipa: "/sɔ.lɛj/", ko: "해, 햇빛", gender: "m" }
 ---
 
-## 예문
-
-- J'ai **mon** sac et **mes** clés. — 가방이랑 열쇠 챙겼어.
-- Où est **mon** téléphone ? — 내 전화기 어디 있지?

@@ -1,8 +1,7 @@
 ---
-title: 2과. 이름 말하기
+title: "2과. 이름 말하기 (Se présenter)"
 slug: lesson-02
 order: 2
-summary: 이름 묻고 답하기와 자기소개 표현.
 render: prose
 ---
 ## 이름 말하기
@@ -22,3 +21,4 @@ render: prose
 **Enchanté(e)** /ɑ̃.ʃɑ̃.te/ — 만나서 반가워요
 - Enchanté ! — Enchantée ! — 반갑습니다! — 저도요!
 - Enchanté de vous rencontrer. — 만나서 반갑습니다.
+

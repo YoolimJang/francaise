@@ -1,13 +1,11 @@
 ---
-title: 명사의 성과 수 (Les noms)
+title: "명사의 성·수 (Les noms)"
 slug: noms
 order: 2
-summary: 명사의 여성형 만들기와 복수형 만들기 규칙.
-group: 관사·명사·형용사
+group: "관사·명사·형용사"
 render: prose
 ---
 ## 1. 성(genre) — 여성형 만들기
-
 기본은 **남성형 + e = 여성형** (étudiant → étudiante). 어미별 규칙:
 
 | 남성 어미 | 여성 변화 | 예 (남 → 여) | 뜻 |
@@ -22,7 +20,6 @@ render: prose
 | -on | -**onne** | un lion → une lionne | 사자 |
 
 ## 2. 수(nombre) — 복수 만들기
-
 기본은 **단수 + s** (발음은 대개 같음). 어미별 예외:
 
 | 단수 어미 | 복수 변화 | 예 (단 → 복) | 뜻 |
@@ -33,7 +30,8 @@ render: prose
 | -al | -**aux** | un animal → des animaux | 동물 |
 | -ail (일부) | -**aux** | un travail → des travaux | 일 |
 
-> 포인트
+> **포인트**
 > - 복수 **s / x**는 대부분 **묵음**. 복수는 관사(les, des)로 구별해 듣는다.
 > - 성이 애매하면 무조건 관사와 함께 외우기: **un** livre, **une** table.
 > - 사람·직업은 뜻으로 성이 정해지지만, 사물은 성이 임의라 통째 암기.
+

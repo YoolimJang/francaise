@@ -1,15 +1,14 @@
 ---
-title: 신체 (Le corps)
+title: "신체 (Le corps)"
 slug: corps
 order: 11
-summary: 머리부터 발까지 주요 신체 부위
-group: 사람·일상
+group: "사람·일상"
 render: vocab
 items:
   - { fr: "tête", ipa: "/tɛt/", ko: "머리", gender: "f" }
   - { fr: "visage", ipa: "/vi.zaʒ/", ko: "얼굴", gender: "m" }
-  - { fr: "œil", ipa: "/œj/", ko: "눈", gender: "m" }
-  - { fr: "yeux", ipa: "/jø/", ko: "눈들 (복수)", gender: "m" }
+  - { fr: "œil", ipa: "/œj/", ko: "눈 (한쪽)", gender: "m" }
+  - { fr: "les yeux", ipa: "/jø/", ko: "눈 (양쪽)" }
   - { fr: "nez", ipa: "/ne/", ko: "코", gender: "m" }
   - { fr: "bouche", ipa: "/buʃ/", ko: "입", gender: "f" }
   - { fr: "oreille", ipa: "/ɔ.ʁɛj/", ko: "귀", gender: "f" }
@@ -25,12 +24,6 @@ items:
   - { fr: "pied", ipa: "/pje/", ko: "발", gender: "m" }
   - { fr: "dent", ipa: "/dɑ̃/", ko: "이(치아)", gender: "f" }
   - { fr: "cœur", ipa: "/kœʁ/", ko: "심장", gender: "m" }
-  - { fr: "cheveux", ipa: "/ʃə.vø/", ko: "머리카락 (복수)", gender: "m" }
+  - { fr: "les cheveux", ipa: "/ʃə.vø/", ko: "머리카락" }
 ---
 
-아프다 표현은 avoir mal à + 신체부위로 쓴다.
-
-## 예문
-
-- J'ai mal **à la** tête. — 머리가 아파.
-- Il a **de** grands yeux. — 그는 눈이 크다.

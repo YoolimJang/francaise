@@ -1,9 +1,8 @@
 ---
-title: 재료 (Les ingrédients)
+title: "재료 (Les ingrédients)"
 slug: ingredients
 order: 19
-summary: 기본 식재료와 조미료
-group: 음식
+group: "음식"
 render: vocab
 items:
   - { fr: "sel", ipa: "/sɛl/", ko: "소금", gender: "m" }
@@ -21,9 +20,3 @@ items:
   - { fr: "sauce", ipa: "/sos/", ko: "소스", gender: "f" }
 ---
 
-기본 식재료와 조미료. 셀 수 없는 것은 부분관사 du/de la를 쓴다.
-
-## 예문
-
-- Il faut **du** sel et **du** poivre. — 소금과 후추가 필요해.
-- J'achète **de la** farine. — 밀가루를 산다.

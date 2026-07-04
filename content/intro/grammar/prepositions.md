@@ -1,40 +1,32 @@
 ---
-title: 전치사 (Les prépositions)
+title: "전치사 (Les prépositions)"
 slug: prepositions
 order: 7
-summary: à de의 용법 à vs en 위치 전치사.
-group: 전치사·의문사
+group: "전치사·의문사"
 render: prose
 ---
 ## 1. à — 장소·시간·대상
-
 | 용법 | 예문 | 뜻 |
 |---|---|---|
 | 장소(~에/~로) | Je vais **à** Paris. | 파리에 간다 |
 | 시간(~에) | à midi, à 8 heures | 정오에, 8시에 |
 | 대상(~에게) | Je parle **à** Marie. | 마리에게 말한다 |
-
 - 축약: à + le = **au**, à + les = **aux** (관사 참고).
 
 ## 2. de — 출발·소유·이유
-
 | 용법 | 예문 | 뜻 |
 |---|---|---|
 | 출발(~에서부터) | Je viens **de** Corée. | 한국에서 왔다 |
 | 소유(~의) | le livre **de** Paul | 폴의 책 |
 | 이유 | pleurer **de** joie | 기뻐서 울다 |
-
 - 축약: de + le = **du**, de + les = **des**.
 
 ## 3. 소유 전치사 de
-
 - A **de** B = "B의 A" (영어 A of B). la voiture **de** mon père (아버지의 차).
 - 사람 소유는 반드시 **de** 사용 (앵글로색슨식 's 없음).
 
 ## 4. à vs en
-
 ### 국가·도시
-
 | 전치사 | 언제 | 예 |
 |---|---|---|
 | **à** | 도시 | à Paris, à Séoul |
@@ -43,14 +35,12 @@ render: prose
 | **aux** | 복수 국가 | aux États-Unis |
 
 ### 교통수단
-
 | 전치사 | 언제 | 예 |
 |---|---|---|
 | **en** | 안에 타는 것 | en voiture, en train, en avion, en bus |
 | **à** | 위에/올라타는 것 | à pied(걸어서), à vélo, à moto |
 
 ## 5. 위치 전치사
-
 | 전치사 | IPA | 뜻 | 예문 |
 |---|---|---|---|
 | près de | /pʁɛ.də/ | ~가까이 | près de la gare (역 근처) |
@@ -64,5 +54,6 @@ render: prose
 | sur | /syʁ/ | ~위에 | sur la table |
 | sous | /su/ | ~아래에 | sous la chaise |
 
-> de의 축약 주의
+> **de의 축약 주의**
 > 위치 전치사의 **de**도 le/les와 만나면 축약: à côté **du** lit, près **des** magasins.
+

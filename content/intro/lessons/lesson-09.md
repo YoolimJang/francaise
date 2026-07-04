@@ -1,8 +1,7 @@
 ---
-title: 9과. 날씨와 감각
+title: "9과. 오늘의 날씨·감각 (Le temps et les sensations)"
 slug: lesson-09
 order: 9
-summary: 날씨 표현과 몸 상태·출신 말하기.
 render: prose
 ---
 ## 날씨 말하기 (Il fait + 형용사 / Il + 동사)
@@ -39,3 +38,4 @@ render: prose
 **Vous venez d'où ? / Tu viens d'où ?** /vu.ne de du/ — 어디서 오셨어요?
 - Vous venez d'où ? — Je viens de Corée. — 어디서 오셨어요? — 한국에서요.
 - Tu viens d'où ? — Je viens de Paris. — 어디서 왔어? — 파리에서.
+

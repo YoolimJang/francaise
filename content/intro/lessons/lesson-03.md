@@ -1,8 +1,7 @@
 ---
-title: 3과. 의문문 만들기
+title: "3과. 의문문 만들기 (Poser une question)"
 slug: lesson-03
 order: 3
-summary: 의문문 세 가지 방식과 ne pas 부정문.
 render: prose
 ---
 ## 의문문 세 가지 방식
@@ -18,7 +17,7 @@ render: prose
 - Est-il français ? — 그는 프랑스 사람인가요?
 - Êtes-vous prêt ? — 준비되셨나요?
 
-> 세 문장은 같은 뜻
+> **세 문장은 같은 뜻**
 > Est-ce qu'il est français ? = Il est français ? = Est-il français ?
 
 ## 부정문 ne... pas
@@ -26,5 +25,6 @@ render: prose
 - Je ne suis pas français. — 저는 프랑스 사람이 아니에요.
 - Je n'aime pas le thé. — 저는 차를 안 좋아해요.
 
-> n' 축약
+> **n' 축약**
 > ne는 모음·무음 h로 시작하는 동사 앞에서 **n'**로 축약. Il **n'**est pas français.
+

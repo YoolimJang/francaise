@@ -1,13 +1,11 @@
 ---
-title: 인칭대명사 (Les pronoms)
+title: "인칭대명사 (Les pronoms personnels)"
 slug: pronoms
 order: 5
-summary: 주격 인칭대명사와 강세형 인칭대명사.
-group: 대명사
+group: "대명사"
 render: prose
 ---
 ## 주격 인칭대명사 (sujet) — 동사 앞, 주어 역할
-
 | 인칭 | 대명사 | IPA | 뜻 |
 |---|---|---|---|
 | 1인칭 단수 | je (j') | /ʒə/ | 나는 |
@@ -22,7 +20,6 @@ render: prose
 - **vous**는 존댓말(단수)이자 복수(너희).
 
 ## 강세형 인칭대명사 (pronoms toniques) — 강조·전치사 뒤·단독
-
 | 주격 | 강세형 | IPA | 뜻 |
 |---|---|---|---|
 | je | moi | /mwa/ | 나 |
@@ -35,9 +32,9 @@ render: prose
 | elles | elles | /ɛl/ | 그녀들 |
 
 ## 강세형 쓰는 경우
-
 - **강조**: **Moi**, je suis coréen. (나로 말하자면, 나는 한국인이다.)
 - **전치사 뒤**: avec **moi**(나와 함께), chez **elle**(그녀 집에), pour **toi**(너를 위해).
 - **단독 대답**: Qui parle ? — **Moi** ! (누가 말해? — 나!)
 - **et 뒤**: Toi et **moi**. (너와 나.)
 - **C'est + 강세형**: C'est **lui**. (그 사람이야.)
+

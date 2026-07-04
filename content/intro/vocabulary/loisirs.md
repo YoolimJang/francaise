@@ -1,9 +1,8 @@
 ---
-title: 취미 (Les loisirs)
+title: "취미 (Les loisirs)"
 slug: loisirs
 order: 14
-summary: 독서 영화 음악 등 여가 활동
-group: 여가
+group: "여가"
 render: vocab
 items:
   - { fr: "lecture", ipa: "/lɛk.tyʁ/", ko: "독서", gender: "f" }
@@ -21,13 +20,6 @@ items:
   - { fr: "match", ipa: "/matʃ/", ko: "경기, 시합", gender: "m" }
   - { fr: "pique-nique", ipa: "/pik.nik/", ko: "소풍", gender: "m" }
   - { fr: "soirée", ipa: "/swa.ʁe/", ko: "저녁 모임, 파티", gender: "f" }
-  - { fr: "devoirs", ipa: "/də.vwaʁ/", ko: "숙제 (복수)", gender: "m" }
+  - { fr: "les devoirs", ipa: "/də.vwaʁ/", ko: "숙제" }
 ---
 
-취미 말하기: J'aime + 동사원형 / faire de + 활동. 예: J'aime lire.
-
-## 예문
-
-- J'aime **la** musique. — 나는 음악을 좋아해.
-- J'aime **lire** et **voyager**. — 나는 읽고 여행하는 걸 좋아해.
-- Qu'est-ce que tu fais le week-end ? — 주말에 뭐 해?

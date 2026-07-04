@@ -1,9 +1,8 @@
 ---
-title: 국가 언어 국적 (Pays, langues, nationalités)
+title: "국가·언어·국적 (Les pays, les langues, les nationalités)"
 slug: pays-langues-nationalites
 order: 4
-summary: 국가명의 성 언어명 국적 형용사와 대소문자 규칙.
-group: 관사·명사·형용사
+group: "관사·명사·형용사"
 render: prose
 ---
 - **국가명(pays)**엔 성(性)이 있다: 대개 -e로 끝나면 여성(la France), 그 외 남성(le Japon).
@@ -23,11 +22,11 @@ render: prose
 | les États-Unis | l'anglais | américain | américaine | /a.me.ʁi.kɛn/ |
 
 ## 예문
-
 - Je suis **coréen / coréenne**. (나는 한국 사람이다.)
 - Je parle **français**. (나는 프랑스어를 한다.) — 언어 앞엔 관사 없이 parler + 언어.
 - J'habite en **France**. (나는 프랑스에 산다.)
 
-> 대소문자 규칙
+> **대소문자 규칙**
 > - 나라 이름·사람(국적 명사): 대문자 → un **F**rançais (프랑스 남자).
 > - 언어·형용사: 소문자 → Il est **f**rançais. / le **f**rançais.
+

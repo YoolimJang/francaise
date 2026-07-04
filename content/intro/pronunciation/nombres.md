@@ -1,8 +1,7 @@
 ---
-title: 숫자
+title: "숫자 (Les nombres)"
 slug: nombres
 order: 2
-summary: 1부터 100까지 프랑스어 숫자와 IPA
 render: vocab
 items:
   - { fr: "zéro", ipa: "/ze.ʁo/", ko: "0" }
@@ -45,11 +44,3 @@ items:
   - { fr: "cent", ipa: "/sɑ̃/", ko: "100" }
 ---
 
-1부터 100까지의 숫자. 0~20은 암기 필수, 그 위는 규칙으로 조합한다.
-
-> **규칙 정리**
->
-> - **17~19**: dix + 숫자 (dix-sept)
-> - **21·31·41·51·61·71**: 십의 자리 + **et un / onze** (et 사용)
-> - **80**: quatre-vingt**s** (복수 s), 뒤에 숫자가 오면 s 탈락 (quatre-vingt-un)
-> - **70·90**: 60·80에 10을 더해서 셈 (70 = 60+10, 80 = 4×20, 90 = 4×20+10)

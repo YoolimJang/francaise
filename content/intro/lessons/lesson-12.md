@@ -1,8 +1,7 @@
 ---
-title: 12과. 허락과 비교와 명령
+title: "12과. 허락·비교·명령 (Pouvoir, comparatif, impératif)"
 slug: lesson-12
 order: 12
-summary: 허락 구하기, 비교급, 명령법 익히기.
 render: prose
 ---
 ## 허락 구하기·제안하기
@@ -29,10 +28,11 @@ render: prose
 - Allons-y ! — 가자!
 - Mangeons ensemble ! — 같이 먹자!
 
-> 대명동사 명령법 — 재귀대명사가 동사 뒤로
+> **대명동사 명령법 — 재귀대명사가 동사 뒤로**
 > | 정중(vous) | 반말(tu) | 뜻 |
 > |---|---|---|
 > | Allez-y | Vas-y | 어서 하세요/해 |
 > | Asseyez-vous | Assieds-toi | 앉으세요/앉아 |
 > | Attendez ! | Attends ! | 기다리세요/기다려 |
 > | Dépêchez-vous | Dépêche-toi | 서두르세요/서둘러 |
+

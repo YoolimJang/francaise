@@ -1,8 +1,7 @@
 ---
-title: 4과. 나이와 기호 말하기
+title: "4과. 나이·기호 말하기 (L'âge et les goûts)"
 slug: lesson-04
 order: 4
-summary: 나이 묻고 답하기와 좋아하는 것 말하기.
 render: prose
 ---
 ## 나이 묻고 답하기
@@ -22,3 +21,4 @@ render: prose
 **Je n'aime pas + 명사** — ~을 안 좋아하다
 - Je n'aime pas le sport. — 저는 운동을 안 좋아해요.
 - Je n'aime pas les maths. — 저는 수학을 안 좋아해요.
+

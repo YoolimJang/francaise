@@ -1,9 +1,8 @@
 ---
-title: 묘사 형용사 (Les adjectifs de description)
+title: "사물·사람 묘사 형용사 (Les adjectifs de description)"
 slug: adjectifs-description
 order: 13
-summary: 사물과 사람을 묘사하는 형용사, 남성형 / 여성형
-group: 묘사
+group: "묘사"
 render: vocab
 items:
   - { fr: "grand / grande", ipa: "/ɡʁɑ̃/", ko: "큰, 키 큰" }
@@ -21,8 +20,6 @@ items:
   - { fr: "cher / chère", ipa: "/ʃɛʁ/", ko: "비싼, 소중한" }
   - { fr: "facile", ipa: "/fa.sil/", ko: "쉬운" }
   - { fr: "difficile", ipa: "/di.fi.sil/", ko: "어려운" }
-  - { fr: "content / contente", ipa: "/kɔ̃.tɑ̃/", ko: "만족한" }
-  - { fr: "fatigué / fatiguée", ipa: "/fa.ti.ɡe/", ko: "피곤한" }
   - { fr: "gentil / gentille", ipa: "/ʒɑ̃.ti/", ko: "친절한" }
   - { fr: "intéressant / intéressante", ipa: "/ɛ̃.te.ʁɛ.sɑ̃/", ko: "흥미로운" }
   - { fr: "lourd / lourde", ipa: "/luʁ/", ko: "무거운" }
@@ -38,12 +35,3 @@ items:
   - { fr: "blond / blonde", ipa: "/blɔ̃/", ko: "금발의" }
 ---
 
-성과 수 일치 규칙을 따른다. 아래는 남성형 기준이며 여성형을 병기했다.
-
-## 예문
-
-- une **grande** maison — 큰 집
-- Il est très **gentil**. — 그는 아주 친절하다.
-
-> **명사 앞에 오는 형용사**
-> beau, joli, grand, petit, bon, vieux, nouveau는 예외적으로 명사 **앞**에 온다: un **petit** chat.

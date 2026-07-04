@@ -1,8 +1,7 @@
 ---
-title: 10과. 취미와 의무
+title: "10과. 취미·의무 (Les loisirs et l'obligation)"
 slug: lesson-10
 order: 10
-summary: 취미와 이유 말하기, 의무 표현하기.
 render: prose
 ---
 ## 취미 말하기
@@ -19,5 +18,6 @@ render: prose
 - Je dois faire mes devoirs. — 저는 숙제를 해야 해요.
 - Tu dois partir maintenant. — 너 지금 가야 해.
 
-> devoir 현재형
+> **devoir 현재형**
 > je dois · tu dois · il doit · nous devons · vous devez · ils doivent
+

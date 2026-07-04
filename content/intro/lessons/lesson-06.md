@@ -1,8 +1,7 @@
 ---
-title: 6과. 가족 소개와 사람 묘사
+title: "6과. 가족 소개·사람 묘사 (La famille et les personnes)"
 slug: lesson-06
 order: 6
-summary: 사람 소개, 감정 표현, 성격과 외모 묘사.
 render: prose
 ---
 ## 사람 소개하기
@@ -27,3 +26,4 @@ render: prose
 **Il / Elle est comment ?** /kɔ.mɑ̃/ — 그(녀)는 어때요? (성격·외모)
 - Il est comment ? — Il est grand et gentil. — 그는 어때? — 키 크고 친절해.
 - Elle est comment ? — Elle est belle et drôle. — 그녀는 어때? — 예쁘고 웃겨.
+

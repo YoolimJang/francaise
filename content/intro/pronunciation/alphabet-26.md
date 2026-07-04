@@ -1,8 +1,7 @@
 ---
-title: 프랑스어 알파벳
+title: "프랑스어 알파벳 (L'alphabet)"
 slug: alphabet-26
 order: 1
-summary: 프랑스어 26자와 글자 이름의 IPA 발음
 render: letters
 items:
   - { fr: "A a", ipa: "/a/", example: "avion", ko: "비행기" }
@@ -33,8 +32,3 @@ items:
   - { fr: "Z z", ipa: "/zɛd/", example: "zéro", ko: "영" }
 ---
 
-프랑스어 알파벳은 영어와 같은 26자지만 **이름(letter name)** 발음이 다르다. 위 표의 IPA는 그 알파벳 자체를 읽는 소리다.
-
-> **/a/ 발음 포인트**
->
-> 모음 **A**는 항상 맑은 "아" /a/. 영어처럼 "애/어"로 흐려지지 않는다. `papa /papa/`, `chat /ʃa/`(고양이), `ami /ami/`(친구).

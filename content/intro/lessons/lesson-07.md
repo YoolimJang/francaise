@@ -1,8 +1,7 @@
 ---
-title: 7과. 시간과 행선지
+title: "7과. 시간·행선지 (L'heure et la destination)"
 slug: lesson-07
 order: 7
-summary: 시간 묻고 답하기, 스케줄과 행선지 말하기.
 render: prose
 ---
 ## 시간 묻고 답하기
@@ -27,3 +26,4 @@ render: prose
 **Je vais à + 장소** /ʒə vɛ/ — ~에 가요 (aller + 전치사 à + 장소)
 - Je vais au cinéma. — 영화관에 가요. (à + le → au)
 - Je vais à l'école. — 학교에 가요.
+

@@ -1,8 +1,7 @@
 ---
-title: 5과. 사물 묘사와 존재
+title: "5과. 사물 묘사·존재 (Décrire un objet)"
 slug: lesson-05
 order: 5
-summary: 사물 묻기, C'est와 Ce sont, il y a 존재 표현.
 render: prose
 ---
 ## 이게 뭐예요?
@@ -27,3 +26,4 @@ render: prose
 **Qu'est-ce qu'il y a... ?** /kɛs ki.lja/ — ~에 뭐가 있어?
 - Qu'est-ce qu'il y a dans ton sac ? — 네 가방에 뭐가 있어?
 - Qu'est-ce qu'il y a sur la table ? — 탁자 위에 뭐가 있어?
+

@@ -1,9 +1,8 @@
 ---
-title: 의문사 (Les mots interrogatifs)
+title: "의문사 (Les mots interrogatifs)"
 slug: interrogatifs
 order: 8
-summary: 주요 의문사와 의문 형용사 quel que vs quoi.
-group: 전치사·의문사
+group: "전치사·의문사"
 render: prose
 ---
 | 의문사 | IPA | 뜻 | 예문 | 예문 뜻 |
@@ -20,9 +19,7 @@ render: prose
 | combien de | /kɔ̃.bjɛ̃.də/ | 몇 개의 | **Combien de** frères ? | 형제가 몇? |
 
 ## quel — 의문 형용사 (성·수 일치)
-
 꾸미는 명사에 맞춰 형태가 변한다.
-
 | | 단수 | 복수 |
 |---|---|---|
 | 남성 | quel | quels |
@@ -32,5 +29,6 @@ render: prose
 - **Quelle** est ta couleur préférée ? (좋아하는 색은?)
 - **Quels** sports aimes-tu ? / **Quelles** langues parles-tu ?
 
-> que vs quoi
+> **que vs quoi**
 > 같은 "무엇"이지만 위치가 다르다. **que**는 동사 앞(Que fais-tu ?), **quoi**는 전치사 뒤나 문장 끝(À quoi penses-tu ? / Tu fais quoi ?).
+
