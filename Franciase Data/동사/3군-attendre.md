@@ -4,7 +4,7 @@ tags: [동사, 3군, 불규칙]
 군: 3
 원형: attendre
 ---
-# attendre /a.tɑ̃dʁ/ — 기다리다
+# attendre /a.tɑ̃dʁ/ — 기다리다 ≈ attend
 
 > 3군 불규칙 동사.
 

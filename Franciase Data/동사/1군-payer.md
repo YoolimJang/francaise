@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: payer
 ---
-# payer /pe.je/ — 지불하다
+# payer /pe.je/ — 지불하다 ≈ pay
 
 > y→i 철자변화 동사: 어미가 무음일 때 y가 i로 바뀐다. 단 nous/vous는 y 유지.
 

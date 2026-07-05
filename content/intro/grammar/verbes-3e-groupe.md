@@ -46,11 +46,11 @@ render: prose
 | 원형 | 뜻 | je | tu | il/elle | nous | vous | ils/elles |
 |---|---|---|---|---|---|---|---|
 | prendre | 잡다, 타다 | prends | prends | prend | prenons | prenez | prennent |
-| comprendre | 이해하다 | comprends | comprends | comprend | comprenons | comprenez | comprennent |
-| attendre | 기다리다 | attends | attends | attend | attendons | attendez | attendent |
+| comprendre | 이해하다 ≈ comprehend | comprends | comprends | comprend | comprenons | comprenez | comprennent |
+| attendre | 기다리다 ≈ attend | attends | attends | attend | attendons | attendez | attendent |
 | venir | 오다 | viens | viens | vient | venons | venez | viennent |
-| partir | 떠나다 | pars | pars | part | partons | partez | partent |
-| dormir | 자다 | dors | dors | dort | dormons | dormez | dorment |
+| partir | 떠나다 ≈ depart | pars | pars | part | partons | partez | partent |
+| dormir | 자다 ≈ dormant | dors | dors | dort | dormons | dormez | dorment |
 | croire | 믿다 | crois | crois | croit | croyons | croyez | croient |
 | lire | 읽다 | lis | lis | lit | lisons | lisez | lisent |
 | voir | 보다 | vois | vois | voit | voyons | voyez | voient |

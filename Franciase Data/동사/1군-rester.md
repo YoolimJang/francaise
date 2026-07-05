@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: rester
 ---
-# rester /ʁɛste/ — 머무르다, 남다
+# rester /ʁɛste/ — 머무르다, 남다 ≈ rest
 
 > 규칙 1군(-er) 동사.
 

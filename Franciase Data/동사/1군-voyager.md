@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: voyager
 ---
-# voyager /vwa.ja.ʒe/ — 여행하다
+# voyager /vwa.ja.ʒe/ — 여행하다 ≈ voyage
 
 > nous에서 g→ge 철자변화 동사: nous 활용에서 발음 유지를 위해 e를 넣는다 (voyageons).
 

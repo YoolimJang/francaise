@@ -27,7 +27,7 @@ render: prose
 
 | 원형 | 뜻 | 예문 |
 |---|---|---|
-| choisir | 선택하다 | Je choisis ce livre. (나는 이 책을 고른다.) |
+| choisir | 선택하다 ≈ choose | Je choisis ce livre. (나는 이 책을 고른다.) |
 | finir | 끝내다 | Je finis mon travail. (나는 일을 끝낸다.) |
 | réussir | 성공하다 | Il réussit son examen. (그는 시험에 합격한다.) |
 | grandir | 자라다 | Les enfants grandissent vite. (아이들은 빨리 자란다.) |

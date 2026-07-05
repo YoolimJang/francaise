@@ -1,14 +1,44 @@
 ---
-title: "반모음 발음 (Les semi-voyelles)"
+title: "반모음 (Les semi-voyelles)"
 slug: semi-voyelles
 order: 5
-render: letters
-items:
-  - { fr: "ya", ipa: "/ja/", example: "yaourt", ko: "요거트" }
-  - { fr: "ye", ipa: "/jɛ/", example: "yeux", ko: "눈들(目)" }
-  - { fr: "yo", ipa: "/jo/", example: "yoga", ko: "요가" }
-  - { fr: "-ien", ipa: "/jɛ̃/", example: "bien", ko: "잘, 좋게" }
-  - { fr: "-ian", ipa: "/jɑ̃/", example: "étudiant", ko: "학생" }
-  - { fr: "-ion", ipa: "/jɔ̃/", example: "attention", ko: "주의" }
+render: prose
+related:
+  - { category: pronunciation, slug: voyelles }
+  - { category: pronunciation, slug: voyelles-nasales }
+  - { category: pronunciation, slug: accents }
 ---
+모음과 자음 사이에서 짧게 미끄러지는 소리. 프랑스어 반모음은 셋: **[j] (yod), [w], [ɥ]**.
+
+## [j] (yod) — "이-" 미끄러짐
+| 철자 | IPA | 한글 근사 | 예시 |
+|---|---|---|---|
+| ya | /ja/ | 야 | il y a |
+| ye | /jɛ/ · /je/ | 예 | (yeux [jø]는 예외) |
+| yo | /jo/ · /jɔ/ | 요 | yoga |
+| -ien | /jɛ̃/ | 이앵~ | bien, chien |
+| -ian | /jɑ̃/ | 이앙~ | viande, étudiant |
+| -ion | /jɔ̃/ | 이옹~ | nation [na.sjɔ̃], question |
+| ill | /ij/ · /j/ | 이(유) | fille, famille, travailler |
+
+> **-ien / -ian / -ion 의 뒷부분은 비모음의 비모음 — 받침 없이 콧소리로**
+> - **nation** → "나시온"(X) → "나시옹~"(O)
+> - **bien** → "비엔"(X) → "비앵~"(O)
+
+> **ill 예외**
+> ill은 보통 [j] (fille [fij], travailler)지만, **ville [vil], mille [mil], tranquille [tʁɑ̃.kil]**은 [il]로 발음. 통째 암기.
+
+> **-tion = /sjɔ̃/**
+> nation /na.sjɔ̃/, question /kɛs.tjɔ̃/, attention /a.tɑ̃.sjɔ̃/ — 씨옹.
+
+## [w] — "우-" 미끄러짐
+- oui [wi] "위", ouest [wɛst], moi [mwa], loin [lwɛ̃]
+- 대개 **ou / oi** 철자에서 나온다.
+
+## [ɥ] — 한국어에 없는 소리
+- u [y]가 모음 앞에서 미끄러지는 소리. **huit** [ɥit], **nuit** [nɥi], **lui** [lɥi], **pluie** [plɥi]
+- "위"와 비슷하나 입술을 [y]처럼 둥글게 **유지한 채** 빠르게 넘어간다.
+
+> **세 반모음 최소대립**
+> **lui** [lɥi] (ɥ) ↔ **Louis** [lwi] (w) ↔ **oui** [wi] (w). ɥ는 입술 둥근 [y]에서, w는 [u]에서 출발한다.
 

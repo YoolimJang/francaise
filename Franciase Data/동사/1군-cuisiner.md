@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: cuisiner
 ---
-# cuisiner /kɥizine/ — 요리하다
+# cuisiner /kɥizine/ — 요리하다 ≈ cuisine
 
 > 규칙 1군(-er) 동사.
 

@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: traverser
 ---
-# traverser /tʁa.vɛʁ.se/ — 건너다, 가로지르다
+# traverser /tʁa.vɛʁ.se/ — 건너다, 가로지르다 ≈ traverse
 
 > 규칙 1군(-er) 동사.
 

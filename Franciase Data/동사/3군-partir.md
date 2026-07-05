@@ -4,7 +4,7 @@ tags: [동사, 3군, 불규칙]
 군: 3
 원형: partir
 ---
-# partir /paʁ.tiʁ/ — 떠나다, 출발하다
+# partir /paʁ.tiʁ/ — 떠나다, 출발하다 ≈ depart
 
 > 3군 불규칙 동사 (dormir·sortir 계열).
 

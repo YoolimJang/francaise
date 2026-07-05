@@ -28,11 +28,12 @@ export const LESSONS_DIR = "핵심표현";
 export const PRONUNCIATION = [
   { src: "발음/01-알파벳.md", slug: "alphabet-26", order: 1, parser: "table", kind: "letters" },
   { src: "발음/02-숫자.md", slug: "nombres", order: 2, parser: "table", kind: "vocab" },
-  { src: "발음/03-모음.md", slug: "voyelles", order: 3, parser: "table", kind: "letters" },
-  { src: "발음/04-비모음.md", slug: "voyelles-nasales", order: 4, parser: "table", kind: "letters" },
-  { src: "발음/05-반모음.md", slug: "semi-voyelles", order: 5, parser: "table", kind: "letters" },
+  { src: "발음/03-모음.md", slug: "voyelles", order: 3, parser: "prose" },
+  { src: "발음/04-비모음.md", slug: "voyelles-nasales", order: 4, parser: "prose" },
+  { src: "발음/05-반모음.md", slug: "semi-voyelles", order: 5, parser: "prose" },
   { src: "발음/06-악상.md", slug: "accents", order: 6, parser: "prose" },
   { src: "발음/07-발음규칙.md", slug: "regles", order: 7, parser: "prose" },
+  { src: "발음/08-발음-총정리.md", slug: "sons-resume", order: 8, parser: "prose" },
 ];
 
 // 문법 → grammar (rules only; verb bundles are curated, not managed here)

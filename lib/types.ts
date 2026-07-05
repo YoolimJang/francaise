@@ -39,6 +39,7 @@ export interface TopicItem {
   example?: string; // example sentence (French) — letters/expression single example
   exampleKo?: string; // example translation
   examples?: { fr: string; ko?: string }[]; // vocab: 2+ example sentences per word
+  eng?: string; // similar/cognate English word — memory aid
   note?: string; // short annotation
   // conjugation-specific
   pronoun?: string;

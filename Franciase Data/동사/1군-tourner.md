@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: tourner
 ---
-# tourner /tuʁ.ne/ — 돌다, 돌리다, 방향을 틀다
+# tourner /tuʁ.ne/ — 돌다, 돌리다, 방향을 틀다 ≈ turn
 
 > 규칙 1군(-er) 동사.
 

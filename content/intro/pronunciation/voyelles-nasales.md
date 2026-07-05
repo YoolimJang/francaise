@@ -1,22 +1,47 @@
 ---
-title: "비모음 발음 (Les voyelles nasales)"
+title: "비모음 (Les voyelles nasales)"
 slug: voyelles-nasales
 order: 4
-render: letters
-items:
-  - { fr: "an", ipa: "/ɑ̃/", example: "France", ko: "프랑스" }
-  - { fr: "am", ipa: "/ɑ̃/", example: "jambe", ko: "다리" }
-  - { fr: "en", ipa: "/ɑ̃/", example: "enfant", ko: "아이" }
-  - { fr: "em", ipa: "/ɑ̃/", example: "temps", ko: "시간, 날씨" }
-  - { fr: "on", ipa: "/ɔ̃/", example: "maison", ko: "집" }
-  - { fr: "om", ipa: "/ɔ̃/", example: "nombre", ko: "숫자" }
-  - { fr: "un", ipa: "/œ̃/", example: "un", ko: "하나" }
-  - { fr: "in", ipa: "/ɛ̃/", example: "vin", ko: "와인" }
-  - { fr: "im", ipa: "/ɛ̃/", example: "important", ko: "중요한" }
-  - { fr: "ain", ipa: "/ɛ̃/", example: "pain", ko: "빵" }
-  - { fr: "aim", ipa: "/ɛ̃/", example: "faim", ko: "배고픔" }
-  - { fr: "ein", ipa: "/ɛ̃/", example: "plein", ko: "가득 찬" }
-  - { fr: "ym", ipa: "/ɛ̃/", example: "sympa", ko: "친절한" }
-  - { fr: "-ien", ipa: "/jɛ̃/", example: "bien", ko: "잘, 좋게" }
+render: prose
+related:
+  - { category: pronunciation, slug: voyelles }
+  - { category: pronunciation, slug: semi-voyelles }
+  - { category: pronunciation, slug: regles }
 ---
+> **대원칙 — 비모음에는 받침이 없다**
+> 한국어 "앙/옹/앵"의 ㅇ·ㄴ·ㅁ 받침처럼 입을 닫는 자음이 **없다.** 입 모양은 모음 그대로 두고 **공기만 코로 흘려보내는 하나의 모음**이다. 뒤의 n·m은 소리내지 않는다. 절대 받침으로 닫지 말 것.
+
+프랑스어 비모음은 크게 4가지: /ɑ̃/, /ɔ̃/, /ɛ̃/, /œ̃/.
+
+| 철자 | IPA | 한글 근사 (참고) | 예시 |
+|---|---|---|---|
+| an, am, en, em | /ɑ̃/ | 앙~ (받침 X, 입 크게) | dans, temps, enfant, chambre |
+| on, om | /ɔ̃/ | 옹~ (받침 X, 입술 둥글게) | bon, nom, ombre |
+| un, um | /œ̃/ | "앙~외" 사이 | brun, parfum, un |
+| in, im, ain, aim, ein, ym, yn | /ɛ̃/ | **앙~에 가깝게** (받침 X) | vin, pain, faim, plein, sympa, syndicat |
+| oin | /wɛ̃/ | 우앙~ | loin, coin, point, besoin |
+| 모음 + en (주로 -ien) | /jɛ̃/ | 이앵~ | bien, chien, rien |
+
+## 음질 대조
+- **/ɑ̃/** (an/en): 입을 크게 벌린 "아"를 코로. dans → "당~"
+- **/ɔ̃/** (on): 입술 둥근 "오"를 코로. bon → "봉~"
+- **/ɛ̃/** (in/ain/ein): IPA상 "에" 계열이지만, **현대 파리 발음에서는 모음이 열리고 뒤로 가서 [æ̃]~[ɑ̃] 쪽으로 실현**된다. 그래서 실제로 "앵"보다 **"앙"에 가깝게** 들린다. vin → "뱅~"보다 "방~", pain → "빵~"에 가까움.
+- **/œ̃/** (un): 요즘 파리 프랑스어에서는 /ɛ̃/과 거의 합류. brun을 [bʁɛ̃]처럼 하는 화자도 많음.
+
+> **흔한 오류 교정 — pain, matin**
+> - **pain** /pɛ̃/ → 한국어 "빵"과 **음질은 비슷**하지만, "빵"엔 ㅇ받침이 있고 프랑스어엔 **닫는 자음이 없다.** 받침 없이 콧소리로 흘려야 함.
+> - **matin** /matɛ̃/ → "마땅"의 음질에 가깝되, 끝을 ㅇ으로 닫지 말고 콧바람으로 끊는다.
+> - 요약: **음질 근사("빵/마땅")는 OK, 받침으로 닫는 것은 NG.**
+
+> **bien vs viande — 반모음이 만드는 차이**
+> 같은 계열이라도 앞 반모음 [j] 때문에 뒤 모음이 달라진다.
+> - **bien** = [bjɛ̃] = "비앵~" (표준)
+> - **viande**의 vian- = [vjɑ̃] = "비앙~"
+> "비앙"으로 뭉뚱그리지 말고 -ien(비앵)과 -ian(비앙)을 구별할 것.
+
+> **비모음이 풀리는 조건**
+> 뒤에 모음이 오거나 n/m이 겹치면 비음화가 **해제**된다.
+> - bon [bɔ̃] ↔ bonne [bɔn] ("본")
+> - an ↔ année [a.ne] (nn이라 비음 아님)
+> - am ↔ ami [a.mi] ("아미", 비음 아님)
 

@@ -4,7 +4,7 @@ tags: [동사, 3군, 불규칙]
 군: 3
 원형: dormir
 ---
-# dormir /dɔʁ.miʁ/ — 자다
+# dormir /dɔʁ.miʁ/ — 자다 ≈ dormant
 
 > 3군 불규칙 동사 (partir·sortir 계열).
 

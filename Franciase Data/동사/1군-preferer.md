@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: préférer
 ---
-# préférer /pʁe.fe.ʁe/ — 선호하다
+# préférer /pʁe.fe.ʁe/ — 선호하다 ≈ prefer
 
 > é→è 철자변화 동사: 어미가 무음일 때 마지막 é가 è로 바뀐다 (je/tu/il/ils).
 

@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: chanter
 ---
-# chanter /ʃɑ̃te/ — 노래하다
+# chanter /ʃɑ̃te/ — 노래하다 ≈ chant
 
 > 규칙 1군(-er) 동사.
 

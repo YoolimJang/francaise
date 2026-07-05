@@ -143,8 +143,14 @@ function termsItems(body) {
     const gm = rest.match(/\((m\/f|m|f)\)/);
     if (gm) item.gender = gm[1];
     item.ipa = ipa[0];
-    // meaning after the em-dash; split off any " · *usage*" hint into note
+    // meaning after the em-dash. Tail may carry, in order:
+    //   뜻 [· *usage note*] [≈ english cognate]
     let ko = rest.split("—").pop().trim();
+    const em = ko.match(/\s≈\s(.+)$/); // English cognate, always last
+    if (em) {
+      item.eng = em[1].trim();
+      ko = ko.slice(0, em.index).trim();
+    }
     const dot = ko.indexOf(" · ");
     if (dot >= 0) {
       const hint = ko.slice(dot + 3).replace(/\*/g, "").trim();
@@ -220,7 +226,7 @@ function parseRelated(rawBody, self) {
 // ── writers ──────────────────────────────────────────────────
 function itemLine(it) {
   const parts = [];
-  for (const k of ["fr", "ipa", "example", "ko", "gender", "note"]) {
+  for (const k of ["fr", "ipa", "example", "ko", "gender", "eng", "note"]) {
     if (it[k] != null && it[k] !== "") parts.push(`${k}: ${yamlQuote(it[k])}`);
   }
   if (it.examples && it.examples.length) {

@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: regarder
 ---
-# regarder /ʁəɡaʁde/ — 보다, 바라보다
+# regarder /ʁəɡaʁde/ — 보다, 바라보다 ≈ regard
 
 > 규칙 1군(-er) 동사.
 

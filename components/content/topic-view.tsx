@@ -47,6 +47,11 @@ function VocabList({ items }: { items: TopicItem[] }) {
               {it.ipa && (
                 <span className="ml-2 text-sm italic text-ink-faint">{it.ipa}</span>
               )}
+              {it.eng && (
+                <span className="ml-2 whitespace-nowrap rounded-sm bg-paper-raised px-1.5 py-0.5 align-middle text-xs text-ink-muted">
+                  ≈ <span className="font-display italic">{it.eng}</span>
+                </span>
+              )}
             </div>
             <span className="shrink-0 text-right text-sm text-ink-muted">{it.ko}</span>
           </div>

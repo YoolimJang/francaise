@@ -4,7 +4,7 @@ tags: [동사, 2군, 규칙(-ir)]
 군: 2
 원형: choisir
 ---
-# choisir [ʃwaziʁ] — 선택하다
+# choisir [ʃwaziʁ] — 선택하다 ≈ choose
 
 > 규칙 2군(-ir) 동사, -iss- 삽입
 

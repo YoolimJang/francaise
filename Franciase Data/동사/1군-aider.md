@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: aider
 ---
-# aider /ede/ — 돕다
+# aider /ede/ — 돕다 ≈ aid
 
 > 규칙 1군(-er) 동사.
 

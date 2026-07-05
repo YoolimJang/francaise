@@ -4,7 +4,7 @@ tags: [동사, 3군, 불규칙]
 군: 3
 원형: comprendre
 ---
-# comprendre /kɔ̃.pʁɑ̃dʁ/ — 이해하다
+# comprendre /kɔ̃.pʁɑ̃dʁ/ — 이해하다 ≈ comprehend
 
 > 3군 불규칙 동사 (prendre 계열).
 

@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: détester
 ---
-# détester /de.tɛs.te/ — 싫어하다
+# détester /de.tɛs.te/ — 싫어하다 ≈ detest
 
 > 규칙 1군(-er) 동사.
 

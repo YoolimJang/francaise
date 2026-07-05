@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: essayer
 ---
-# essayer /e.se.je/ — 시도하다, 입어보다
+# essayer /e.se.je/ — 시도하다, 입어보다 ≈ essay
 
 > y→i 철자변화 동사: 어미가 무음일 때 y가 i로 바뀐다 (nous/vous는 y 유지). essayer de+동사원형.
 

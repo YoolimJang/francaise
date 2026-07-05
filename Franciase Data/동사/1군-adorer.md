@@ -4,7 +4,7 @@ tags: [동사, 1군, -er]
 군: 1
 원형: adorer
 ---
-# adorer /adɔʁe/ — 아주 좋아하다
+# adorer /adɔʁe/ — 아주 좋아하다 ≈ adore
 
 > 규칙 1군(-er) 동사.
 
