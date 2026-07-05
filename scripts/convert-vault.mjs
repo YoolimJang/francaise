@@ -126,11 +126,12 @@ function tableItems(body, kind) {
   return items;
 }
 
-// ── terms parser (**bold** /ipa/ 한글 — 뜻) ──────────────────
+// ── terms parser (**bold** /ipa/ 한글 — 뜻 + 예문 불릿 2개) ────
 function termsItems(body) {
   const items = [];
-  for (const line of body.split("\n")) {
-    const m = line.match(/^\*\*(.+?)\*\*(.*)$/);
+  const lines = body.split("\n");
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^\*\*(.+?)\*\*(.*)$/);
     // A real vocab entry is "**term** [(gender)] /ipa/ [한글] — 뜻".
     // Require both an IPA and the em-dash meaning separator so usage
     // notes (e.g. "**jouer à** + 구기 / **faire de** + ...") are skipped.
@@ -142,9 +143,33 @@ function termsItems(body) {
     const gm = rest.match(/\((m\/f|m|f)\)/);
     if (gm) item.gender = gm[1];
     item.ipa = ipa[0];
-    const ko = rest.split("—").pop().trim();
+    // meaning after the em-dash; split off any " · *usage*" hint into note
+    let ko = rest.split("—").pop().trim();
+    const dot = ko.indexOf(" · ");
+    if (dot >= 0) {
+      const hint = ko.slice(dot + 3).replace(/\*/g, "").trim();
+      ko = ko.slice(0, dot).trim();
+      if (hint) item.note = hint;
+    }
     item.fr = item.gender ? stripArticle(m[1].trim()) : m[1].trim();
     if (ko) item.ko = ko;
+    // collect the following "- fr — ko" example bullets (blank lines allowed)
+    const examples = [];
+    for (let j = i + 1; j < lines.length; j++) {
+      const b = lines[j];
+      if (/^\s*-\s+/.test(b)) {
+        const t = b.replace(/^\s*-\s+/, "");
+        const parts = t.split("—");
+        const fr = stripLinks(parts[0]).trim();
+        const exKo = parts.slice(1).join("—").trim();
+        if (fr) examples.push(exKo ? { fr, ko: exKo } : { fr });
+      } else if (b.trim() === "") {
+        continue;
+      } else {
+        break;
+      }
+    }
+    if (examples.length) item.examples = examples.slice(0, 4);
     items.push(item);
   }
   return items;
@@ -153,8 +178,14 @@ function termsItems(body) {
 // ── writers ──────────────────────────────────────────────────
 function itemLine(it) {
   const parts = [];
-  for (const k of ["fr", "ipa", "example", "ko", "gender"]) {
+  for (const k of ["fr", "ipa", "example", "ko", "gender", "note"]) {
     if (it[k] != null && it[k] !== "") parts.push(`${k}: ${yamlQuote(it[k])}`);
+  }
+  if (it.examples && it.examples.length) {
+    const exs = it.examples
+      .map((e) => (e.ko ? `{ fr: ${yamlQuote(e.fr)}, ko: ${yamlQuote(e.ko)} }` : `{ fr: ${yamlQuote(e.fr)} }`))
+      .join(", ");
+    parts.push(`examples: [${exs}]`);
   }
   return `  - { ${parts.join(", ")} }`;
 }

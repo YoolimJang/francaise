@@ -34,20 +34,33 @@ function LettersGrid({ items }: { items: TopicItem[] }) {
   );
 }
 
-/* Vocabulary — editorial two-column list */
+/* Vocabulary — headword + gloss, with example sentences beneath */
 function VocabList({ items }: { items: TopicItem[] }) {
   return (
     <ul className="divide-y divide-line border-y border-line">
       {items.map((it, i) => (
-        <li key={i} className="flex items-baseline justify-between gap-4 py-3">
-          <div className="min-w-0">
-            <span className="font-display text-lg">{it.fr}</span>
-            <GenderMark g={it.gender} />
-            {it.ipa && (
-              <span className="ml-2 text-sm italic text-ink-faint">{it.ipa}</span>
-            )}
+        <li key={i} className="py-4">
+          <div className="flex items-baseline justify-between gap-4">
+            <div className="min-w-0">
+              <span className="font-display text-lg">{it.fr}</span>
+              <GenderMark g={it.gender} />
+              {it.ipa && (
+                <span className="ml-2 text-sm italic text-ink-faint">{it.ipa}</span>
+              )}
+            </div>
+            <span className="shrink-0 text-right text-sm text-ink-muted">{it.ko}</span>
           </div>
-          <span className="shrink-0 text-right text-sm text-ink-muted">{it.ko}</span>
+          {it.note && <p className="mt-1 text-xs text-ink-faint">{it.note}</p>}
+          {it.examples && it.examples.length > 0 && (
+            <ul className="mt-3 space-y-2 border-l-2 border-line pl-3.5">
+              {it.examples.map((ex, j) => (
+                <li key={j}>
+                  <p className="font-display italic leading-snug">{ex.fr}</p>
+                  {ex.ko && <p className="mt-0.5 text-sm text-ink-muted">{ex.ko}</p>}
+                </li>
+              ))}
+            </ul>
+          )}
         </li>
       ))}
     </ul>

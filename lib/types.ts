@@ -36,8 +36,9 @@ export interface TopicItem {
   ipa?: string; // IPA pronunciation
   ko?: string; // Korean meaning
   gender?: "m" | "f" | "m/f"; // noun/adjective gender
-  example?: string; // example sentence (French)
+  example?: string; // example sentence (French) — letters/expression single example
   exampleKo?: string; // example translation
+  examples?: { fr: string; ko?: string }[]; // vocab: 2+ example sentences per word
   note?: string; // short annotation
   // conjugation-specific
   pronoun?: string;
