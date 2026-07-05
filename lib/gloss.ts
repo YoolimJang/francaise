@@ -77,6 +77,37 @@ export function buildGlossLexicon(
   return { verbs, nouns };
 }
 
+// ── plain-string tokenizer (for structured examples, e.g. vocab) ──
+export type GlossToken =
+  | { text: string }
+  | { text: string; verb: { inf: string; href: string } }
+  | { text: string; noun: { gender: "m" | "f" | "m/f"; plural: boolean } };
+
+/**
+ * Split a French sentence into gloss tokens. `verbsAnywhere` glosses any
+ * matching conjugated form (vocab examples have no bold markers), unlike the
+ * prose rehype pass which only treats bolded words as verbs.
+ */
+export function glossTokens(
+  text: string,
+  lex: GlossLexicon,
+  verbsAnywhere = false
+): GlossToken[] {
+  const out: GlossToken[] = [];
+  for (const seg of text.split(WORD)) {
+    if (!seg) continue;
+    if (WORD.test(seg)) {
+      const key = seg.toLowerCase();
+      const verb = verbsAnywhere ? lex.verbs.get(key) : undefined;
+      if (verb) { out.push({ text: seg, verb }); continue; }
+      const noun = lex.nouns.get(key);
+      if (noun) { out.push({ text: seg, noun }); continue; }
+    }
+    out.push({ text: seg });
+  }
+  return out;
+}
+
 // ── rehype plugin ────────────────────────────────────────────
 type HNode = { type: string; tagName?: string; value?: string; properties?: Record<string, unknown>; children?: HNode[] };
 

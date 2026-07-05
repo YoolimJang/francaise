@@ -3,8 +3,9 @@ import remarkGfm from "remark-gfm";
 import Link from "next/link";
 import type { Topic, TopicItem } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { buildGlossLexicon, makeRehypeGloss } from "@/lib/gloss";
+import { buildGlossLexicon, makeRehypeGloss, type GlossLexicon } from "@/lib/gloss";
 import { getVocabLexiconItems } from "@/lib/content";
+import { GlossText } from "./gloss-text";
 
 /* Internal markdown links (incl. gloss infinitive links) → Next Link for basePath + SPA nav. */
 function MdLink({ href, children, ...props }: React.ComponentProps<"a">) {
@@ -54,7 +55,7 @@ function LettersGrid({ items }: { items: TopicItem[] }) {
 }
 
 /* Vocabulary — headword + gloss, with example sentences beneath */
-function VocabList({ items }: { items: TopicItem[] }) {
+function VocabList({ items, lex }: { items: TopicItem[]; lex: GlossLexicon }) {
   return (
     <ul className="divide-y divide-line border-y border-line">
       {items.map((it, i) => (
@@ -79,7 +80,9 @@ function VocabList({ items }: { items: TopicItem[] }) {
             <ul className="mt-3 space-y-2 border-l-2 border-line pl-3.5">
               {it.examples.map((ex, j) => (
                 <li key={j}>
-                  <p className="font-display italic leading-snug">{ex.fr}</p>
+                  <p className="font-display italic leading-snug">
+                    <GlossText text={ex.fr} lex={lex} />
+                  </p>
                   {ex.ko && <p className="mt-0.5 text-sm text-ink-muted">{ex.ko}</p>}
                 </li>
               ))}
@@ -134,12 +137,13 @@ function ExpressionList({ items }: { items: TopicItem[] }) {
 
 export function TopicView({ topic }: { topic: Topic }) {
   const hasItems = topic.items.length > 0;
+  const lex = buildGlossLexicon(topic.chapter, getVocabLexiconItems(topic.chapter));
   return (
     <article className="pb-24">
       {hasItems && (
         <div className={cn("mb-10", topic.body && "mb-12")}>
           {topic.render === "letters" && <LettersGrid items={topic.items} />}
-          {topic.render === "vocab" && <VocabList items={topic.items} />}
+          {topic.render === "vocab" && <VocabList items={topic.items} lex={lex} />}
           {topic.render === "conjugation" && <ConjugationTable items={topic.items} />}
           {topic.render === "expression" && <ExpressionList items={topic.items} />}
         </div>
@@ -148,11 +152,7 @@ export function TopicView({ topic }: { topic: Topic }) {
         <div className="prose-editorial">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
-            rehypePlugins={[
-              makeRehypeGloss(
-                buildGlossLexicon(topic.chapter, getVocabLexiconItems(topic.chapter))
-              ),
-            ]}
+            rehypePlugins={[makeRehypeGloss(lex)]}
             components={{ a: MdLink }}
           >
             {topic.body}
