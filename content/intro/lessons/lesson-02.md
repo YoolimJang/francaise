@@ -3,6 +3,10 @@ title: "2과. 이름 말하기 (Se présenter)"
 slug: lesson-02
 order: 2
 render: prose
+related:
+  - { category: grammar, slug: pays-langues-nationalites }
+  - { category: grammar, slug: verbes-pronominaux }
+  - { category: vocabulary, slug: professions }
 ---
 ## 이름 말하기
 **Je m'appelle...** /ʒə ma.pɛl/ — 제 이름은 ~예요 (s'appeler + 이름)

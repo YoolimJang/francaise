@@ -26,5 +26,9 @@ items:
   - { fr: "montre", ipa: "/mɔ̃tʁ/", ko: "손목시계", gender: "f", examples: [{ fr: "J'ai une nouvelle montre.", ko: "새 시계가 있어." }, { fr: "Ma montre est en or.", ko: "내 시계는 금이야." }] }
   - { fr: "collier", ipa: "/kɔ.lje/", ko: "목걸이", gender: "m", examples: [{ fr: "Elle porte un joli collier.", ko: "그녀는 예쁜 목걸이를 걸었어." }, { fr: "Un collier en argent.", ko: "은 목걸이." }] }
   - { fr: "bracelet", ipa: "/bʁas.lɛ/", ko: "팔찌", gender: "m", examples: [{ fr: "Un bracelet en or.", ko: "금 팔찌." }, { fr: "J'aime ce bracelet.", ko: "나는 이 팔찌가 좋아." }] }
+related:
+  - { category: vocabulary, slug: couleurs }
+  - { category: vocabulary, slug: affaires }
+  - { category: grammar, slug: verbes-1er-groupe }
 ---
 

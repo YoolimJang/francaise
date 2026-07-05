@@ -32,5 +32,9 @@ items:
   - { fr: "retard", ipa: "/ʁə.taʁ/", ko: "지각, 늦음", gender: "m", examples: [{ fr: "Désolé pour le retard.", ko: "늦어서 미안해." }, { fr: "Le train a du retard.", ko: "기차가 연착이야." }] }
   - { fr: "à l'heure", ipa: "/a lœʁ/", ko: "정시에", examples: [{ fr: "Le bus est à l'heure.", ko: "버스가 제시간에 왔어." }, { fr: "Sois à l'heure !", ko: "제시간에 와!" }] }
   - { fr: "en retard", ipa: "/ɑ̃ ʁə.taʁ/", ko: "늦은, 지각한", examples: [{ fr: "Je suis en retard.", ko: "나 늦었어." }, { fr: "Tu es toujours en retard.", ko: "넌 항상 늦어." }] }
+related:
+  - { category: lessons, slug: lesson-07 }
+  - { category: lessons, slug: lesson-08 }
+  - { category: pronunciation, slug: nombres }
 ---
 

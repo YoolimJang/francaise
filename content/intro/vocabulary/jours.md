@@ -12,5 +12,8 @@ items:
   - { fr: "vendredi", ipa: "/vɑ̃.dʁə.di/", ko: "금요일", gender: "m", examples: [{ fr: "Vendredi, c'est bientôt le week-end.", ko: "금요일이면 곧 주말이야." }, { fr: "On se voit vendredi ?", ko: "금요일에 볼까?" }] }
   - { fr: "samedi", ipa: "/sam.di/", ko: "토요일", gender: "m", examples: [{ fr: "Samedi, je vais au marché.", ko: "토요일에 시장에 가." }, { fr: "Samedi matin, je dors.", ko: "토요일 아침엔 자." }] }
   - { fr: "dimanche", ipa: "/di.mɑ̃ʃ/", ko: "일요일", gender: "m", examples: [{ fr: "Le dimanche, je me repose.", ko: "일요일마다 쉬어." }, { fr: "Dimanche, on déjeune chez ma mère.", ko: "일요일에 엄마 집에서 점심 먹어." }] }
+related:
+  - { category: vocabulary, slug: mois }
+  - { category: vocabulary, slug: temps }
 ---
 

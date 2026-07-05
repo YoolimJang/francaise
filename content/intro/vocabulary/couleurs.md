@@ -16,5 +16,8 @@ items:
   - { fr: "violet / violette", ipa: "/vjɔ.lɛ/", ko: "보라", examples: [{ fr: "Un raisin violet.", ko: "보라색 포도." }, { fr: "Une écharpe violette.", ko: "보라색 목도리." }] }
   - { fr: "gris / grise", ipa: "/ɡʁi/", ko: "회색", examples: [{ fr: "Le ciel est gris aujourd'hui.", ko: "오늘 하늘이 흐려." }, { fr: "Il porte une veste grise.", ko: "그는 회색 재킷을 입어." }] }
   - { fr: "marron", ipa: "/ma.ʁɔ̃/", ko: "갈색 (불변)", examples: [{ fr: "Elle a les yeux marron.", ko: "그녀는 갈색 눈이야." }, { fr: "Un sac marron.", ko: "갈색 가방." }] }
+related:
+  - { category: grammar, slug: adjectifs }
+  - { category: vocabulary, slug: adjectifs-description }
 ---
 

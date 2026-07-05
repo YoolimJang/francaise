@@ -21,5 +21,9 @@ items:
   - { fr: "pique-nique", ipa: "/pik.nik/", ko: "소풍", gender: "m", examples: [{ fr: "On fait un pique-nique dimanche.", ko: "일요일에 소풍 가." }, { fr: "Le pique-nique est annulé.", ko: "소풍이 취소됐어." }] }
   - { fr: "soirée", ipa: "/swa.ʁe/", ko: "저녁 모임, 파티", gender: "f", examples: [{ fr: "J'organise une soirée.", ko: "파티를 열어." }, { fr: "C'était une soirée amusante.", ko: "재밌는 파티였어." }] }
   - { fr: "les devoirs", ipa: "/də.vwaʁ/", ko: "숙제", examples: [{ fr: "Je fais mes devoirs.", ko: "숙제를 해." }, { fr: "J'ai beaucoup de devoirs.", ko: "숙제가 많아." }] }
+related:
+  - { category: vocabulary, slug: sport }
+  - { category: vocabulary, slug: musique }
+  - { category: lessons, slug: lesson-10 }
 ---
 

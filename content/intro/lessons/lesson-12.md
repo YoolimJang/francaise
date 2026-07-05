@@ -3,6 +3,11 @@ title: "12과. 허락·비교·명령 (Pouvoir, comparatif, impératif)"
 slug: lesson-12
 order: 12
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: grammar, slug: comparatif }
+  - { category: grammar, slug: verbes-pronominaux }
+  - { category: vocabulary, slug: couleurs }
 ---
 ## 허락 구하기·제안하기
 **pouvoir + 동사원형** /pu.vwaʁ/ — ~할 수 있다 / ~해도 될까요

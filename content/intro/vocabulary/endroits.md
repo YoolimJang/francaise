@@ -26,5 +26,9 @@ items:
   - { fr: "arrêt", ipa: "/a.ʁɛ/", ko: "정류장", gender: "m", examples: [{ fr: "J'attends à l'arrêt de bus.", ko: "버스 정류장에서 기다려." }, { fr: "Le prochain arrêt, c'est ici.", ko: "다음 정류장이 여기야." }] }
   - { fr: "forêt", ipa: "/fɔ.ʁɛ/", ko: "숲", gender: "f", examples: [{ fr: "On se promène dans la forêt.", ko: "숲에서 산책해." }, { fr: "La forêt est calme.", ko: "숲이 고요해." }] }
   - { fr: "château", ipa: "/ʃɑ.to/", ko: "성(城)", gender: "m", examples: [{ fr: "On visite un château.", ko: "성을 구경해." }, { fr: "Le château est magnifique.", ko: "성이 아주 아름다워." }] }
+related:
+  - { category: grammar, slug: prepositions }
+  - { category: grammar, slug: articles }
+  - { category: lessons, slug: lesson-13 }
 ---
 

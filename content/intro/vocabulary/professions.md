@@ -19,5 +19,9 @@ items:
   - { fr: "boulanger / boulangère", ipa: "/bu.lɑ̃.ʒe/", ko: "제빵사", examples: [{ fr: "Le boulanger fait du bon pain.", ko: "제빵사가 맛있는 빵을 만들어." }, { fr: "Elle est boulangère.", ko: "그녀는 제빵사야." }] }
   - { fr: "employé / employée", ipa: "/ɑ̃.plwa.je/", ko: "회사원, 직원", examples: [{ fr: "Je suis employé de bureau.", ko: "나는 사무직이야." }, { fr: "Elle est employée dans une banque.", ko: "그녀는 은행 직원이야." }] }
   - { fr: "docteur / docteure", ipa: "/dɔk.tœʁ/", ko: "의사 (구어)", examples: [{ fr: "Bonjour, docteur.", ko: "안녕하세요, 의사 선생님." }, { fr: "Le docteur arrive.", ko: "의사가 와." }] }
+related:
+  - { category: grammar, slug: pays-langues-nationalites }
+  - { category: vocabulary, slug: famille }
+  - { category: lessons, slug: lesson-02 }
 ---
 

@@ -3,6 +3,9 @@ title: "9과. 오늘의 날씨·감각 (Le temps et les sensations)"
 slug: lesson-09
 order: 9
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: grammar, slug: avoir-expressions }
 ---
 ## 날씨 말하기 (Il fait + 형용사 / Il + 동사)
 **Il fait beau** /il fɛ bo/ — 날씨가 좋아요 (faire 사용)

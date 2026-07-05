@@ -3,6 +3,10 @@ title: "4과. 나이·기호 말하기 (L'âge et les goûts)"
 slug: lesson-04
 order: 4
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: grammar, slug: verbes-1er-groupe }
+  - { category: grammar, slug: articles }
 ---
 ## 나이 묻고 답하기
 **Vous avez quel âge ? / Tu as quel âge ?** /kɛ.l‿aʒ/ — 몇 살이세요? / 몇 살이야?

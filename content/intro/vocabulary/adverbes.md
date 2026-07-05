@@ -39,5 +39,8 @@ items:
   - { fr: "en or", ipa: "/ɑ̃.n‿ɔʁ/", ko: "금으로 된; 최고인", examples: [{ fr: "Une montre en or.", ko: "금시계." }, { fr: "Il a un cœur en or.", ko: "그는 마음이 착해." }] }
   - { fr: "en espèces", ipa: "/ɑ̃.n‿ɛs.pɛs/", ko: "현금으로", examples: [{ fr: "Je paie en espèces.", ko: "현금으로 낼게요." }, { fr: "En espèces ou par carte ?", ko: "현금이요, 카드요?" }] }
   - { fr: "à pied", ipa: "/a pje/", ko: "걸어서", examples: [{ fr: "Je vais au travail à pied.", ko: "걸어서 출근해." }, { fr: "C'est à dix minutes à pied.", ko: "걸어서 10분이야." }] }
+related:
+  - { category: lessons, slug: lesson-05 }
+  - { category: lessons, slug: lesson-10 }
 ---
 

@@ -28,5 +28,9 @@ items:
   - { fr: "copine", ipa: "/kɔ.pin/", ko: "친구, 여자친구", gender: "f", examples: [{ fr: "Sa copine est coréenne.", ko: "그의 여자친구는 한국인이야." }, { fr: "J'ai rendez-vous avec une copine.", ko: "친구랑 약속 있어." }] }
   - { fr: "garçon", ipa: "/ɡaʁ.sɔ̃/", ko: "소년", gender: "m", examples: [{ fr: "Ce garçon est timide.", ko: "이 소년은 수줍어해." }, { fr: "Il y a deux garçons dans la classe.", ko: "반에 소년이 둘 있어." }] }
   - { fr: "tout le monde", ipa: "/tu lə mɔ̃d/", ko: "모두 (단수 취급)", gender: "m", examples: [{ fr: "Tout le monde est là ?", ko: "다 왔어?" }, { fr: "Bonjour tout le monde !", ko: "모두 안녕!" }] }
+related:
+  - { category: vocabulary, slug: professions }
+  - { category: grammar, slug: adjectifs }
+  - { category: lessons, slug: lesson-06 }
 ---
 

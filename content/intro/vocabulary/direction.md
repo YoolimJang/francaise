@@ -16,5 +16,8 @@ items:
   - { fr: "en bas", ipa: "/ɑ̃.bɑ/", ko: "아래쪽에 (표현)", examples: [{ fr: "Je t'attends en bas.", ko: "아래에서 기다릴게." }, { fr: "Les toilettes sont en bas.", ko: "화장실은 아래층이야." }] }
   - { fr: "ici", ipa: "/i.si/", ko: "여기 (부사)", examples: [{ fr: "Je suis ici.", ko: "나 여기 있어." }, { fr: "Viens ici !", ko: "이리 와!" }] }
   - { fr: "là / là-bas", ipa: "/la/", ko: "거기 / 저기 (부사)", examples: [{ fr: "Il est là.", ko: "그는 거기 있어." }, { fr: "Le musée est là-bas.", ko: "박물관은 저기 있어." }] }
+related:
+  - { category: grammar, slug: prepositions }
+  - { category: lessons, slug: lesson-13 }
 ---
 

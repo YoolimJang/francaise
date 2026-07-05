@@ -33,5 +33,9 @@ items:
   - { fr: "grave", ipa: "/ɡʁav/", ko: "심각한", examples: [{ fr: "C'est un problème grave.", ko: "심각한 문제야." }, { fr: "Ce n'est pas grave.", ko: "괜찮아." }] }
   - { fr: "mince", ipa: "/mɛ̃s/", ko: "얇은, 날씬한", examples: [{ fr: "Une tranche mince.", ko: "얇은 조각." }, { fr: "Elle est mince.", ko: "그녀는 날씬해." }] }
   - { fr: "blond / blonde", ipa: "/blɔ̃/", ko: "금발의", examples: [{ fr: "C'est un garçon blond.", ko: "금발 소년이야." }, { fr: "Elle est blonde.", ko: "그녀는 금발이야." }] }
+related:
+  - { category: grammar, slug: adjectifs }
+  - { category: vocabulary, slug: couleurs }
+  - { category: vocabulary, slug: emotions }
 ---
 

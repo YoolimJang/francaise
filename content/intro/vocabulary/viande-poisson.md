@@ -19,5 +19,8 @@ items:
   - { fr: "huître", ipa: "/ɥitʁ/", ko: "굴", gender: "f", examples: [{ fr: "On mange des huîtres à Noël.", ko: "크리스마스에 굴을 먹어." }, { fr: "Les huîtres sont fraîches.", ko: "굴이 신선해." }] }
   - { fr: "moule", ipa: "/mul/", ko: "홍합", gender: "f", examples: [{ fr: "Des moules-frites.", ko: "홍합과 감자튀김." }, { fr: "J'aime les moules.", ko: "나는 홍합을 좋아해." }] }
   - { fr: "calamar", ipa: "/ka.la.maʁ/", ko: "오징어", gender: "m", examples: [{ fr: "Des calamars frits.", ko: "튀긴 오징어." }, { fr: "Le calamar est tendre.", ko: "오징어가 부드러워." }] }
+related:
+  - { category: vocabulary, slug: legumes-fruits }
+  - { category: vocabulary, slug: ingredients }
 ---
 

@@ -3,6 +3,9 @@ title: "5과. 사물 묘사·존재 (Décrire un objet)"
 slug: lesson-05
 order: 5
 render: prose
+related:
+  - { category: grammar, slug: adjectifs }
+  - { category: vocabulary, slug: affaires }
 ---
 ## 이게 뭐예요?
 **Qu'est-ce que c'est ?** /kɛs kə sɛ/ — 이것은 무엇입니까? (Que + est-ce que)

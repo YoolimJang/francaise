@@ -17,5 +17,9 @@ items:
   - { fr: "charme", ipa: "/ʃaʁm/", ko: "매력", gender: "m", examples: [{ fr: "Cette ville a du charme.", ko: "이 도시는 매력이 있어." }, { fr: "Il a beaucoup de charme.", ko: "그는 매력이 많아." }] }
   - { fr: "mal", ipa: "/mal/", ko: "아픔, 나쁜 것", gender: "m", examples: [{ fr: "J'ai mal au dos.", ko: "등이 아파." }, { fr: "Tu as mal où ?", ko: "어디가 아파?" }] }
   - { fr: "idée", ipa: "/i.de/", ko: "생각, 아이디어", gender: "f", examples: [{ fr: "Bonne idée !", ko: "좋은 생각이야!" }, { fr: "J'ai une idée.", ko: "나한테 생각이 있어." }] }
+related:
+  - { category: lessons, slug: lesson-06 }
+  - { category: vocabulary, slug: adjectifs-description }
+  - { category: grammar, slug: avoir-expressions }
 ---
 

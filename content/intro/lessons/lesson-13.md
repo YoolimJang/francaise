@@ -3,6 +3,11 @@ title: "13과. 길 묻고 안내하기 (Demander et indiquer le chemin)"
 slug: lesson-13
 order: 13
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: grammar, slug: verbes-1er-groupe }
+  - { category: vocabulary, slug: direction }
+  - { category: vocabulary, slug: endroits }
 ---
 ## 길 묻기
 **Où est + 장소 ?** /u ɛ/ — ~가 어디예요?

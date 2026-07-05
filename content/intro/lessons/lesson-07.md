@@ -3,6 +3,11 @@ title: "7과. 시간·행선지 (L'heure et la destination)"
 slug: lesson-07
 order: 7
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: grammar, slug: prepositions }
+  - { category: vocabulary, slug: endroits }
+  - { category: pronunciation, slug: nombres }
 ---
 ## 시간 묻고 답하기
 **Il est quelle heure ? / Quelle heure est-il ?** /kɛ.l‿œʁ/ — 몇 시예요?

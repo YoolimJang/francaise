@@ -3,6 +3,9 @@ title: "기초 발음 규칙 (Les règles de prononciation)"
 slug: regles
 order: 7
 render: prose
+related:
+  - { category: pronunciation, slug: accents }
+  - { category: grammar, slug: articles }
 ---
 낱소리(알파벳~악상)를 익힌 뒤 알아야 할 "이어읽기·묵음" 규칙 모음.
 

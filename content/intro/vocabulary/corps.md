@@ -25,5 +25,8 @@ items:
   - { fr: "dent", ipa: "/dɑ̃/", ko: "이(치아)", gender: "f", examples: [{ fr: "J'ai mal aux dents.", ko: "이가 아파." }, { fr: "Je me brosse les dents.", ko: "이를 닦아." }] }
   - { fr: "cœur", ipa: "/kœʁ/", ko: "심장", gender: "m", examples: [{ fr: "Mon cœur bat vite.", ko: "심장이 빨리 뛰어." }, { fr: "Il a un cœur en or.", ko: "그는 마음이 착해." }] }
   - { fr: "les cheveux", ipa: "/ʃə.vø/", ko: "머리카락", examples: [{ fr: "Elle a les cheveux longs.", ko: "그녀는 머리가 길어." }, { fr: "Il a les cheveux blonds.", ko: "그는 금발이야." }] }
+related:
+  - { category: grammar, slug: avoir-expressions }
+  - { category: lessons, slug: lesson-09 }
 ---
 

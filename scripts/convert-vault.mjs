@@ -175,6 +175,48 @@ function termsItems(body) {
   return items;
 }
 
+// ── related links (from the vault's "관련:" line) ─────────────
+const stripDir = (src) => src.replace(/^[^/]+\//, "").replace(/\.md$/, "");
+const SRC_MAP = {}; // full note basename → {category, slug} (발음 + 문법)
+for (const j of PRONUNCIATION) SRC_MAP[stripDir(j.src)] = { category: "pronunciation", slug: j.slug };
+for (const j of GRAMMAR) {
+  const targets = j.srcMerge ? j.srcMerge : [j.src];
+  for (const s of targets) SRC_MAP[stripDir(s)] = { category: "grammar", slug: j.slug };
+}
+const VOCAB_MAP = {}; // 한글 basename → {category, slug}
+for (const j of VOCABULARY) VOCAB_MAP[stripDir(j.src)] = { category: "vocabulary", slug: j.slug };
+
+function resolveLink(target) {
+  const t = target.split("|")[0].trim();
+  if (!t || /개요|INDEX/.test(t)) return null; // skip MOC/index
+  let m;
+  if ((m = t.match(/^(\d+)과-/)))
+    return { category: "lessons", slug: `lesson-${m[1].padStart(2, "0")}` };
+  if (t === "대명동사") return { category: "grammar", slug: "verbes-pronominaux" };
+  if (t === "동사원형-활용") return { category: "grammar", slug: "verbes-3e-groupe" };
+  if ((m = t.match(/^([123])군-/)))
+    return {
+      category: "grammar",
+      slug: m[1] === "1" ? "verbes-1er-groupe" : m[1] === "2" ? "verbes-2e-groupe" : "verbes-3e-groupe",
+    };
+  return SRC_MAP[t] || VOCAB_MAP[t] || null;
+}
+
+function parseRelated(rawBody, self) {
+  const line = rawBody.match(/^관련\s*:(.*)$/m);
+  if (!line) return [];
+  const out = [], seen = new Set();
+  for (const mm of line[1].matchAll(/\[\[([^\]]+)\]\]/g)) {
+    const r = resolveLink(mm[1]);
+    if (!r) continue;
+    const key = `${r.category}/${r.slug}`;
+    if (seen.has(key) || key === self) continue;
+    seen.add(key);
+    out.push(r);
+  }
+  return out;
+}
+
 // ── writers ──────────────────────────────────────────────────
 function itemLine(it) {
   const parts = [];
@@ -190,13 +232,17 @@ function itemLine(it) {
   return `  - { ${parts.join(", ")} }`;
 }
 
-function writeTopic(cat, { slug, title, order, group, render, items, body }) {
+function writeTopic(cat, { slug, title, order, group, render, items, body, related }) {
   const fm = ["---", `title: ${yamlQuote(title)}`, `slug: ${slug}`, `order: ${order}`];
   if (group) fm.push(`group: ${yamlQuote(group)}`);
   fm.push(`render: ${render}`);
   if (items) {
     fm.push("items:");
     for (const it of items) fm.push(itemLine(it));
+  }
+  if (related && related.length) {
+    fm.push("related:");
+    for (const r of related) fm.push(`  - { category: ${r.category}, slug: ${r.slug} }`);
   }
   fm.push("---", "");
   const out = fm.join("\n") + (body ? body : "") + "\n";
@@ -220,13 +266,17 @@ function readMerged(job) {
 function processJob(cat, job) {
   const merged = readMerged(job);
   const raw = merged == null ? fs.readFileSync(vaultPath(job.src), "utf8") : "";
-  const { body } = merged == null ? splitFrontmatter(raw) : { body: "" };
+  let body = merged == null ? splitFrontmatter(raw).body : "";
+  const rawForRelated = merged == null
+    ? body
+    : job.srcMerge.map((s) => fs.readFileSync(vaultPath(s), "utf8")).join("\n");
+  const related = parseRelated(rawForRelated, `${cat}/${job.slug}`);
   const isLesson = cat === "lessons";
   const title = job.title || deriveTitle(body, { isLesson });
 
   if (job.parser === "prose") {
     writeTopic(cat, {
-      slug: job.slug, title, order: job.order, group: job.group,
+      slug: job.slug, title, order: job.order, group: job.group, related,
       render: "prose", body: merged != null ? merged.trim() + "\n" : cleanProse(body),
     });
   } else {
@@ -243,7 +293,7 @@ function processJob(cat, job) {
     }
     if (!items.length) console.warn(`  ! ${job.src}: 항목 0개 (형식 확인 필요)`);
     const render = job.kind === "letters" ? "letters" : "vocab";
-    writeTopic(cat, { slug: job.slug, title, order: job.order, group: job.group, render, items });
+    writeTopic(cat, { slug: job.slug, title, order: job.order, group: job.group, render, items, related });
   }
 }
 
@@ -254,12 +304,14 @@ function processLessons() {
   for (const f of files) {
     const n = parseInt(f.match(/^(\d+)과/)[1], 10);
     const { body } = splitFrontmatter(fs.readFileSync(path.join(dir, f), "utf8"));
+    const slug = `lesson-${String(n).padStart(2, "0")}`;
     writeTopic("lessons", {
-      slug: `lesson-${String(n).padStart(2, "0")}`,
+      slug,
       title: deriveTitle(body, { isLesson: true }),
       order: n,
       render: "prose",
       body: cleanProse(body),
+      related: parseRelated(body, `lessons/${slug}`),
     });
   }
 }

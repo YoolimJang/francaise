@@ -28,7 +28,16 @@ function readTopicFile(
     render: (data.render as RenderType) ?? "prose",
     items: (data.items as TopicItem[]) ?? [],
     body: content.trim(),
+    related: (data.related as Topic["related"]) ?? undefined,
   };
+}
+
+/** Resolve a topic's related links to full topics (drops any that no longer exist). */
+export function getRelated(topic: Topic) {
+  if (!topic.related?.length) return [];
+  return topic.related
+    .map((r) => getTopic(topic.chapter, r.category, r.slug))
+    .filter((t): t is Topic => !!t);
 }
 
 /** All topics in a chapter+category, ordered. */

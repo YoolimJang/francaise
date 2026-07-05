@@ -58,6 +58,14 @@ export interface Topic {
   items: TopicItem[];
   /** markdown explanation body */
   body: string;
+  /** cross-links to related topics (from the vault's 관련 line) */
+  related?: RelatedLink[];
+}
+
+/** A pointer to another topic, rendered as a jump button. */
+export interface RelatedLink {
+  category: CategoryId;
+  slug: string;
 }
 
 export interface CategoryMeta {

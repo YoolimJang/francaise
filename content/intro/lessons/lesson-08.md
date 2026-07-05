@@ -3,6 +3,10 @@ title: "8과. 가까운 미래·날짜와 요일 (Le futur proche et la date)"
 slug: lesson-08
 order: 8
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: vocabulary, slug: jours }
+  - { category: vocabulary, slug: mois }
 ---
 ## 가까운 미래 (futur proche)
 **Aller(현재) + 동사원형** — ~할 것이다 (곧)

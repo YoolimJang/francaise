@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { TopicView } from "@/components/content/topic-view";
 import { getChapter, CATEGORIES } from "@/lib/config";
-import { getTopic, getTopics, getAllTopicParams } from "@/lib/content";
+import { getTopic, getTopics, getAllTopicParams, getRelated } from "@/lib/content";
 import type { CategoryId, ChapterId } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -27,6 +27,8 @@ export default async function TopicPage({
   const idx = siblings.findIndex((t) => t.slug === slug);
   const prev = siblings[idx - 1];
   const next = siblings[idx + 1];
+
+  const related = getRelated(topic);
 
   return (
     <div className="px-6 py-10 md:px-12 md:py-14">
@@ -53,6 +55,28 @@ export default async function TopicPage({
       <div className="mt-10">
         <TopicView topic={topic} />
       </div>
+
+      {/* Related topics — jump to linked vocabulary/grammar/lessons */}
+      {related.length > 0 && (
+        <section className="mt-4 border-t border-line pt-6">
+          <p className="eyebrow mb-3">관련 항목 · Voir aussi</p>
+          <div className="flex flex-wrap gap-2">
+            {related.map((r) => (
+              <Link
+                key={`${r.category}/${r.slug}`}
+                href={`/${chapter}/${r.category}/${r.slug}`}
+                className="group inline-flex items-center gap-2 border border-line bg-paper px-3 py-2 transition-colors hover:border-ink hover:bg-paper-raised"
+              >
+                <span className="font-display text-[0.7rem] italic text-ink-faint">
+                  {CATEGORIES[r.category].label}
+                </span>
+                <span className="text-sm">{r.title}</span>
+                <ArrowUpRight className="h-3.5 w-3.5 text-ink-faint transition-colors group-hover:text-ink" />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Prev / Next */}
       <nav className="mt-8 grid gap-px border border-line bg-line sm:grid-cols-2">

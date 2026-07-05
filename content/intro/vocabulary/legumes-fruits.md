@@ -23,5 +23,8 @@ items:
   - { fr: "citron", ipa: "/si.tʁɔ̃/", ko: "레몬", gender: "m", examples: [{ fr: "Un citron jaune.", ko: "노란 레몬." }, { fr: "Je mets du citron dans le thé.", ko: "차에 레몬을 넣어." }] }
   - { fr: "poire", ipa: "/pwaʁ/", ko: "배", gender: "f", examples: [{ fr: "Je mange une poire.", ko: "배를 먹어." }, { fr: "La poire est mûre.", ko: "배가 익었어." }] }
   - { fr: "melon", ipa: "/mə.lɔ̃/", ko: "멜론", gender: "m", examples: [{ fr: "Le melon est sucré.", ko: "멜론이 달아." }, { fr: "Une tranche de melon.", ko: "멜론 한 조각." }] }
+related:
+  - { category: vocabulary, slug: viande-poisson }
+  - { category: vocabulary, slug: ingredients }
 ---
 

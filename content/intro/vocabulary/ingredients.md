@@ -18,5 +18,9 @@ items:
   - { fr: "pain", ipa: "/pɛ̃/", ko: "빵", gender: "m", examples: [{ fr: "J'achète du pain.", ko: "빵을 사." }, { fr: "Le pain est frais.", ko: "빵이 신선해." }] }
   - { fr: "eau", ipa: "/o/", ko: "물", gender: "f", examples: [{ fr: "Je bois de l'eau.", ko: "물을 마셔." }, { fr: "Un verre d'eau, s'il vous plaît.", ko: "물 한 잔 주세요." }] }
   - { fr: "sauce", ipa: "/sos/", ko: "소스", gender: "f", examples: [{ fr: "Une sauce tomate.", ko: "토마토 소스." }, { fr: "La sauce est bonne.", ko: "소스가 맛있어." }] }
+related:
+  - { category: vocabulary, slug: legumes-fruits }
+  - { category: vocabulary, slug: viande-poisson }
+  - { category: grammar, slug: articles }
 ---
 

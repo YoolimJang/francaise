@@ -3,6 +3,10 @@ title: "10과. 취미·의무 (Les loisirs et l'obligation)"
 slug: lesson-10
 order: 10
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: vocabulary, slug: loisirs }
+  - { category: vocabulary, slug: sport }
 ---
 ## 취미 말하기
 **J'aime + 동사원형** /ʒɛm/ — ~하는 걸 좋아해요 (aimer + 동사원형)

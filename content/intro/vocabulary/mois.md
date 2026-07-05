@@ -17,5 +17,9 @@ items:
   - { fr: "octobre", ipa: "/ɔk.tɔbʁ/", ko: "10월", gender: "m", examples: [{ fr: "En octobre, les feuilles tombent.", ko: "10월엔 낙엽이 떨어져." }, { fr: "Mon cours commence en octobre.", ko: "내 수업은 10월에 시작해." }] }
   - { fr: "novembre", ipa: "/nɔ.vɑ̃bʁ/", ko: "11월", gender: "m", examples: [{ fr: "En novembre, il fait gris.", ko: "11월엔 날씨가 흐려." }, { fr: "Il pleut souvent en novembre.", ko: "11월엔 비가 자주 와." }] }
   - { fr: "décembre", ipa: "/de.sɑ̃bʁ/", ko: "12월", gender: "m", examples: [{ fr: "Noël est en décembre.", ko: "크리스마스는 12월이야." }, { fr: "En décembre, il fait froid.", ko: "12월엔 추워." }] }
+related:
+  - { category: vocabulary, slug: jours }
+  - { category: vocabulary, slug: saisons }
+  - { category: vocabulary, slug: temps }
 ---
 

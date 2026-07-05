@@ -3,6 +3,10 @@ title: "11과. 주문·계산 (Commander et payer)"
 slug: lesson-11
 order: 11
 render: prose
+related:
+  - { category: grammar, slug: verbes-3e-groupe }
+  - { category: vocabulary, slug: ingredients }
+  - { category: grammar, slug: interrogatifs }
 ---
 ## 주문하기
 **Je voudrais + 명사, s'il vous plaît** /ʒə vu.dʁɛ/ — ~ 주세요 (정중, vouloir 조건법)

@@ -15,5 +15,9 @@ items:
   - { fr: "ski", ipa: "/ski/", ko: "스키", gender: "m", note: "faire du ski", examples: [{ fr: "Je fais du ski en hiver.", ko: "겨울에 스키를 타." }, { fr: "Le ski, c'est génial.", ko: "스키는 정말 재밌어." }] }
   - { fr: "gymnastique", ipa: "/ʒim.nas.tik/", ko: "체조", gender: "f", note: "faire de la gym", examples: [{ fr: "Je fais de la gym.", ko: "나는 체조를 해." }, { fr: "La gymnastique est difficile.", ko: "체조는 어려워." }] }
   - { fr: "yoga", ipa: "/jɔ.ɡa/", ko: "요가", gender: "m", note: "faire du yoga", examples: [{ fr: "Je fais du yoga le matin.", ko: "아침에 요가를 해." }, { fr: "Le yoga détend.", ko: "요가는 긴장을 풀어줘." }] }
+related:
+  - { category: vocabulary, slug: loisirs }
+  - { category: grammar, slug: verbes-1er-groupe }
+  - { category: lessons, slug: lesson-10 }
 ---
 

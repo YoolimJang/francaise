@@ -25,5 +25,8 @@ items:
   - { fr: "verre", ipa: "/vɛʁ/", ko: "잔, 유리", gender: "m", examples: [{ fr: "Un verre d'eau, s'il vous plaît.", ko: "물 한 잔 주세요." }, { fr: "Le verre est plein.", ko: "잔이 가득 찼어." }] }
   - { fr: "canapé", ipa: "/ka.na.pe/", ko: "소파", gender: "m", examples: [{ fr: "Je m'assois sur le canapé.", ko: "소파에 앉아." }, { fr: "Le chat dort sur le canapé.", ko: "고양이가 소파에서 자." }] }
   - { fr: "soleil", ipa: "/sɔ.lɛj/", ko: "해, 햇빛", gender: "m", examples: [{ fr: "Il y a du soleil aujourd'hui.", ko: "오늘 해가 나." }, { fr: "J'aime le soleil.", ko: "나는 햇빛을 좋아해." }] }
+related:
+  - { category: vocabulary, slug: vetements }
+  - { category: lessons, slug: lesson-05 }
 ---
 

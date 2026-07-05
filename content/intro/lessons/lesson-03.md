@@ -3,6 +3,9 @@ title: "3과. 의문문 만들기 (Poser une question)"
 slug: lesson-03
 order: 3
 render: prose
+related:
+  - { category: grammar, slug: interrogatifs }
+  - { category: grammar, slug: verbes-3e-groupe }
 ---
 ## 의문문 세 가지 방식
 **Est-ce que + 평서문** /ɛs kə/ — 정중한 예/아니오 의문문

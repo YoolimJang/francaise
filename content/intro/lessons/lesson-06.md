@@ -3,6 +3,11 @@ title: "6과. 가족 소개·사람 묘사 (La famille et les personnes)"
 slug: lesson-06
 order: 6
 render: prose
+related:
+  - { category: vocabulary, slug: famille }
+  - { category: vocabulary, slug: adjectifs-description }
+  - { category: vocabulary, slug: emotions }
+  - { category: grammar, slug: adjectifs }
 ---
 ## 사람 소개하기
 **Qui est-ce ?** /ki ɛs/ — 이 사람은 누구예요?

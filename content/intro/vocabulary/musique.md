@@ -13,5 +13,8 @@ items:
   - { fr: "saxophone", ipa: "/sak.sɔ.fɔn/", ko: "색소폰", gender: "m", note: "jouer du saxophone", examples: [{ fr: "Il joue du saxophone dans un groupe.", ko: "그는 밴드에서 색소폰을 불어." }, { fr: "Le saxophone, c'est du jazz.", ko: "색소폰은 재즈지." }] }
   - { fr: "violoncelle", ipa: "/vjɔ.lɔ̃.sɛl/", ko: "첼로", gender: "m", note: "jouer du violoncelle", examples: [{ fr: "Elle joue du violoncelle.", ko: "그녀는 첼로를 켜." }, { fr: "Le violoncelle a un son grave.", ko: "첼로는 낮은 소리를 내." }] }
   - { fr: "trompette", ipa: "/tʁɔ̃.pɛt/", ko: "트럼펫", gender: "f", note: "jouer de la trompette", examples: [{ fr: "Il joue de la trompette.", ko: "그는 트럼펫을 불어." }, { fr: "La trompette est bruyante.", ko: "트럼펫은 시끄러워." }] }
+related:
+  - { category: vocabulary, slug: loisirs }
+  - { category: grammar, slug: verbes-1er-groupe }
 ---
 

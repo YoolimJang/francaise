@@ -3,6 +3,9 @@ title: "1과. 기본 인사 (Les salutations)"
 slug: lesson-01
 order: 1
 render: prose
+related:
+  - { category: lessons, slug: lesson-02 }
+  - { category: grammar, slug: pronoms }
 ---
 ## 기본 예의 표현
 **Excusez-moi = Pardon** /ɛk.sky.ze mwa/ · /paʁ.dɔ̃/ — 실례합니다 / 죄송합니다
