@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
-import { getChapter, CATEGORIES } from "@/lib/config";
+import { getChapter, CATEGORIES, CHAPTERS } from "@/lib/config";
 import { getChapterOutline } from "@/lib/content";
 import type { ChapterId } from "@/lib/types";
+
+export function generateStaticParams() {
+  return CHAPTERS.filter((c) => c.available).map((c) => ({ chapter: c.id }));
+}
 
 export default async function ChapterPage({
   params,
