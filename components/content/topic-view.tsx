@@ -1,7 +1,26 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import Link from "next/link";
 import type { Topic, TopicItem } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { buildGlossLexicon, makeRehypeGloss } from "@/lib/gloss";
+import { getVocabLexiconItems } from "@/lib/content";
+
+/* Internal markdown links (incl. gloss infinitive links) → Next Link for basePath + SPA nav. */
+function MdLink({ href, children, ...props }: React.ComponentProps<"a">) {
+  if (href && href.startsWith("/")) {
+    return (
+      <Link href={href} className={props.className}>
+        {children}
+      </Link>
+    );
+  }
+  return (
+    <a href={href} {...props}>
+      {children}
+    </a>
+  );
+}
 
 function GenderMark({ g }: { g?: TopicItem["gender"] }) {
   if (!g) return null;
@@ -127,7 +146,17 @@ export function TopicView({ topic }: { topic: Topic }) {
       )}
       {topic.body && (
         <div className="prose-editorial">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{topic.body}</ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[
+              makeRehypeGloss(
+                buildGlossLexicon(topic.chapter, getVocabLexiconItems(topic.chapter))
+              ),
+            ]}
+            components={{ a: MdLink }}
+          >
+            {topic.body}
+          </ReactMarkdown>
         </div>
       )}
     </article>

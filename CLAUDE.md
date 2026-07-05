@@ -68,6 +68,11 @@ scripts/sync-content.mjs            콘텐츠 검증(npm run sync)
 
 발음은 **IPA(`ipa`)로만** 표기한다. 한글 음차는 부정확해서 쓰지 않는다.
 
+**예문 글로싱**: prose 본문의 예문(리스트 항목) 속 단어에 호버 툴팁이 붙는다 —
+**굵게 표시된 활용형 → 원형(+원형 페이지 인라인 링크)**, **명사 → 성(le/la)·수(단/복)**.
+사전은 `lib/gloss.ts`(동사 활용형 표 하드코딩 + 단어장 명사 자동 수집), rehype 플러그인으로
+`components/content/topic-view.tsx`에서 적용. 새 동사를 링크 대상에 넣으려면 `gloss.ts`의 `VERBS`에 추가.
+
 **연관 항목 버튼**: 토픽에 `related: [{category, slug}]`가 있으면 상세 페이지 하단에
 해당 토픽으로 가는 버튼이 뜬다. 변환기가 볼트 노트 끝의 `관련: [[...]]` 링크를 파싱해
 자동 생성한다(예: 13과 → 방향·장소 단어장). 위키링크 해석 규칙은 `convert-vault.mjs`의 `resolveLink`.

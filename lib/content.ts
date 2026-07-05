@@ -32,6 +32,11 @@ function readTopicFile(
   };
 }
 
+/** All vocab items in a chapter — used to build the gloss lexicon (noun genders). */
+export function getVocabLexiconItems(chapter: ChapterId): TopicItem[] {
+  return getTopics(chapter, "vocabulary").flatMap((t) => t.items);
+}
+
 /** Resolve a topic's related links to full topics (drops any that no longer exist). */
 export function getRelated(topic: Topic) {
   if (!topic.related?.length) return [];

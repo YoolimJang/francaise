@@ -134,6 +134,50 @@ body {
   text-underline-offset: 2px;
 }
 
+/* Gloss — hover tooltips on words inside example sentences */
+.gloss {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted 1px;
+  text-underline-offset: 3px;
+}
+.gloss-verb {
+  text-decoration-color: hsl(var(--ink-muted));
+}
+.gloss-noun {
+  text-decoration-color: hsl(var(--ink-faint));
+}
+.gloss-tip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  border: 1px solid hsl(var(--ink));
+  background: hsl(var(--ink));
+  color: hsl(var(--paper));
+  font-family: var(--font-sans), sans-serif;
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s;
+  z-index: 30;
+}
+.gloss:hover .gloss-tip {
+  opacity: 1;
+  pointer-events: auto;
+}
+.gloss-link {
+  color: hsl(var(--paper));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-style: italic;
+}
+
 ::selection {
   background: hsl(var(--ink));
   color: hsl(var(--paper));
