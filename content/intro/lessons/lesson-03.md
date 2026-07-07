@@ -31,3 +31,28 @@ related:
 > **n' 축약**
 > ne는 모음·무음 h로 시작하는 동사 앞에서 **n'**로 축약. Il **n'**est pas français.
 
+## 대화 (Dialogue)
+
+### 1. Vous parlez anglais ?
+- **Yujin** : Pardon, monsieur. Vous parlez anglais ?
+- **Passant 1** : Non, je ne parle pas anglais.
+- **Yujin** : Excusez-moi, madame. Est-ce que vous parlez anglais ?
+- **Passante 2** : Oui, un peu.
+- **Yujin** : Where is the Eiffel tower ?
+- **Passante 2** : Oh, désolée. Je ne comprends pas.
+
+### 2. Tu es japonais ?
+- **Yujin** : Bonjour, je m'appelle Yujin. Et toi ? Tu es... ?
+- **Paul** : Bonjour ! Je m'appelle Paul.
+- **Yujin** : Tu es japonais ?
+- **Paul** : Non, je ne suis pas japonais. Je suis français. Et toi ? Tu es française ?
+- **Yujin** : Non, je ne suis pas française. Je suis coréenne.
+
+### 3. Nous sommes tous coréens.
+- **Mégane** : Jimin, cette fille sur la photo, est-ce qu'elle est chinoise ?
+- **Jimin** : Non, elle n'est pas chinoise. Elle est coréenne.
+- **Mégane** : Et ce garçon, il est aussi coréen ?
+- **Jimin** : Oui, il est aussi coréen.
+- **Mégane** : Alors, vous parlez tous coréen ?
+- **Jimin** : Oui, nous sommes coréens et nous parlons tous coréen.
+

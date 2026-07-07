@@ -19,6 +19,14 @@ items:
   - { fr: "boulanger / boulangère", ipa: "/bu.lɑ̃.ʒe/", ko: "제빵사", examples: [{ fr: "Le boulanger fait du bon pain.", ko: "제빵사가 맛있는 빵을 만들어." }, { fr: "Elle est boulangère.", ko: "그녀는 제빵사야." }] }
   - { fr: "employé / employée", ipa: "/ɑ̃.plwa.je/", ko: "회사원, 직원", eng: "employee", examples: [{ fr: "Je suis employé de bureau.", ko: "나는 사무직이야." }, { fr: "Elle est employée dans une banque.", ko: "그녀는 은행 직원이야." }] }
   - { fr: "docteur / docteure", ipa: "/dɔk.tœʁ/", ko: "의사 (구어)", eng: "doctor", examples: [{ fr: "Bonjour, docteur.", ko: "안녕하세요, 의사 선생님." }, { fr: "Le docteur arrive.", ko: "의사가 와." }] }
+  - { fr: "journaliste", ipa: "/f) /", ko: "기자", gender: "m/f", eng: "journalist", examples: [{ fr: "Il est journaliste.", ko: "그는 기자야." }, { fr: "Elle travaille comme journaliste.", ko: "그녀는 기자로 일해." }] }
+  - { fr: "policier / policière", ipa: "/pɔ.li.sje/", ko: "경찰관", eng: "police", examples: [{ fr: "Mon frère est policier.", ko: "내 형은 경찰이야." }, { fr: "Elle est policière.", ko: "그녀는 경찰이야." }] }
+  - { fr: "pompier", ipa: "/f) /", ko: "소방관", gender: "m/f", examples: [{ fr: "Les pompiers arrivent vite.", ko: "소방관들이 빨리 온다." }, { fr: "Il est pompier.", ko: "그는 소방관이야." }] }
+  - { fr: "coiffeur / coiffeuse", ipa: "/kwa.fœʁ/", ko: "미용사", examples: [{ fr: "Elle est coiffeuse.", ko: "그녀는 미용사야." }, { fr: "Mon coiffeur est sympa.", ko: "내 미용사는 친절해." }] }
+  - { fr: "architecte", ipa: "/f) /", ko: "건축가", gender: "m/f", eng: "architect", examples: [{ fr: "Il est architecte.", ko: "그는 건축가야." }, { fr: "Elle est architecte à Paris.", ko: "그녀는 파리에서 건축가로 일해." }] }
+  - { fr: "peintre", ipa: "/f) /", ko: "화가", gender: "m/f", eng: "painter", examples: [{ fr: "C'est un peintre célèbre.", ko: "유명한 화가야." }, { fr: "Elle est peintre.", ko: "그녀는 화가야." }] }
+  - { fr: "musicien / musicienne", ipa: "/my.zi.sjɛ̃/", ko: "음악가", eng: "musician", examples: [{ fr: "Il est musicien.", ko: "그는 음악가야." }, { fr: "Elle est musicienne.", ko: "그녀는 음악가야." }] }
+  - { fr: "hôtesse de l'air", ipa: "/o.tɛs də lɛʁ/", ko: "승무원", gender: "f", examples: [{ fr: "Elle est hôtesse de l'air.", ko: "그녀는 승무원이야." }, { fr: "L'hôtesse de l'air est aimable.", ko: "승무원이 친절해." }] }
 related:
   - { category: grammar, slug: pays-langues-nationalites }
   - { category: vocabulary, slug: famille }

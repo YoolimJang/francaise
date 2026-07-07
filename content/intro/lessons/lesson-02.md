@@ -26,3 +26,28 @@ related:
 - Enchanté ! — Enchantée ! — 반갑습니다! — 저도요!
 - Enchanté de vous rencontrer. — 만나서 반갑습니다.
 
+## 대화 (Dialogue)
+
+### 1. Comment vous appelez-vous ?
+- **Professeur** : Bonjour, tout le monde ! Enchanté ! Comment vous appelez-vous ?
+- **Kevin** : Bonjour, enchanté ! Je m'appelle Kevin.
+- **Mégane** : Bonjour ! Je m'appelle Mégane. Enchantée !
+- **Professeur** : Et toi ? Comment t'appelles-tu ?
+- **Yujin** : Moi, je m'appelle Yujin.
+
+### 2. C'est Mégane. Elle est étudiante.
+- **Kevin** : Salut, Lucille ! Ça va ?
+- **Lucille** : Salut ! Ça va très bien. Merci. Elle, c'est Mégane.
+- **Mégane** : Salut ! Enchantée.
+- **Kevin** : Enchanté. Tu es étudiante ?
+- **Mégane** : Oui, je suis étudiante. Toi aussi ?
+- **Kevin** : Non, je suis pâtissier.
+
+### 3. Ils sont étudiants ?
+- **Kevin** : Yujin est professeur ?
+- **Mégane** : Non, elle est étudiante.
+- **Kevin** : Jimin est chanteur ?
+- **Mégane** : Non, il est étudiant.
+- **Kevin** : Alors, Marie est boulangère ?
+- **Mégane** : Non, elle est aussi étudiante. Ils sont tous étudiants.
+
