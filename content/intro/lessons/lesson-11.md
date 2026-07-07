@@ -26,3 +26,12 @@ related:
 - Ce sera tout, merci. — 그거면 됐어요, 고마워요.
 - Et avec ça ? — Ce sera tout. — 더 필요하세요? — 그거면 돼요.
 
+## 대화 (Dialogue)
+
+### 1. Je voudrais une baguette.
+- **Cliente** : Bonjour ! Je voudrais une baguette, s'il vous plaît.
+- **Boulanger** : Voilà. Et avec ça ?
+- **Cliente** : Je voudrais aussi deux croissants. Ça fait combien ?
+- **Boulanger** : Ça fait cinq euros.
+- **Cliente** : Je paie en espèces. Merci !
+

@@ -32,3 +32,13 @@ related:
 - Je vais au cinéma. — 영화관에 가요. (à + le → au)
 - Je vais à l'école. — 학교에 가요.
 
+## 대화 (Dialogue)
+
+### 1. Il est quelle heure ?
+- **Kevin** : Il est quelle heure ?
+- **Mégane** : Il est dix heures et demie.
+- **Kevin** : C'est à quelle heure, ton cours ?
+- **Mégane** : À neuf heures. Et toi, tu vas où ?
+- **Kevin** : Je vais à l'école. Et toi ?
+- **Mégane** : Je vais à la bibliothèque.
+

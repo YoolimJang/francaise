@@ -26,3 +26,13 @@ related:
 - Je n'aime pas le sport. — 저는 운동을 안 좋아해요.
 - Je n'aime pas les maths. — 저는 수학을 안 좋아해요.
 
+## 대화 (Dialogue)
+
+### 1. Vous avez quel âge ?
+- **Léa** : Bonjour ! Vous avez quel âge ?
+- **Paul** : J'ai vingt-six ans. Et toi ? Tu as quel âge ?
+- **Léa** : J'ai vingt-sept ans.
+- **Paul** : Qu'est-ce que tu aimes ?
+- **Léa** : J'aime la musique. Et toi ?
+- **Paul** : Moi, j'aime le cinéma.
+

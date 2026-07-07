@@ -35,3 +35,13 @@ related:
 - C'est loin ? — Non, c'est à 10 minutes en bus. — 멀어요? — 아뇨, 버스로 10분이에요.
 - C'est loin d'ici ? — 여기서 멀어요?
 
+## 대화 (Dialogue)
+
+### 1. Où est la gare ?
+- **Touriste** : Pardon, où est la gare ?
+- **Passant** : C'est près d'ici. Allez tout droit.
+- **Touriste** : Merci ! Comment je peux aller au Louvre ?
+- **Passant** : Prenez le bus numéro 52.
+- **Touriste** : Merci beaucoup !
+- **Passant** : Je vous en prie. Bonne journée !
+

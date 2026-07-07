@@ -26,3 +26,12 @@ related:
 > **날짜 형식**
 > **On est le + 숫자 + 월 (+ 연도)**. 1일만 서수 premier: le 1er mai.
 
+## 대화 (Dialogue)
+
+### 1. Qu'est-ce que tu vas faire ce week-end ?
+- **Léa** : On est quel jour aujourd'hui ?
+- **Paul** : On est mercredi, le 30 juillet.
+- **Léa** : Qu'est-ce que tu vas faire ce week-end ?
+- **Paul** : Je vais aller au cinéma. Et toi ?
+- **Léa** : Je vais dîner avec ma famille ce soir, et je vais partir en vacances samedi.
+

@@ -30,3 +30,13 @@ related:
 - Qu'est-ce qu'il y a dans ton sac ? — 네 가방에 뭐가 있어?
 - Qu'est-ce qu'il y a sur la table ? — 탁자 위에 뭐가 있어?
 
+## 대화 (Dialogue)
+
+### 1. Qu'est-ce que c'est ?
+- **Kevin** : Qu'est-ce que c'est ?
+- **Mégane** : Ce sont mes lunettes.
+- **Kevin** : Et qu'est-ce qu'il y a dans ton sac ?
+- **Mégane** : Dans mon sac, il y a une tablette et un livre.
+- **Kevin** : C'est un livre français ?
+- **Mégane** : Oui, c'est un livre de français.
+

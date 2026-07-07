@@ -32,3 +32,14 @@ related:
 - Il est comment ? — Il est grand et gentil. — 그는 어때? — 키 크고 친절해.
 - Elle est comment ? — Elle est belle et drôle. — 그녀는 어때? — 예쁘고 웃겨.
 
+## 대화 (Dialogue)
+
+### 1. Qui est-ce ?
+- **Léa** : Qui est-ce ?
+- **Paul** : C'est mon père. Il est grand et beau.
+- **Léa** : Il est comment ?
+- **Paul** : Il est sympa et agréable. Et cette fille ?
+- **Léa** : C'est ma petite sœur. Elle est grande et mince.
+- **Paul** : Elle a les cheveux longs ?
+- **Léa** : Oui, elle a les cheveux longs et blonds. Elle est gentille mais timide.
+

@@ -42,3 +42,13 @@ related:
 - Vous venez d'où ? — Je viens de Corée. — 어디서 오셨어요? — 한국에서요.
 - Tu viens d'où ? — Je viens de Paris. — 어디서 왔어? — 파리에서.
 
+## 대화 (Dialogue)
+
+### 1. Il fait quel temps ?
+- **Kevin** : Il fait quel temps aujourd'hui ?
+- **Mégane** : Il fait mauvais. Il pleut.
+- **Kevin** : En hiver, il fait quel temps en Corée ?
+- **Mégane** : En hiver, il fait froid et il neige souvent.
+- **Kevin** : Tu as froid ?
+- **Mégane** : Non, j'ai chaud. Mais j'ai mal à la tête.
+

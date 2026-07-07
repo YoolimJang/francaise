@@ -41,3 +41,13 @@ related:
 > | Attendez ! | Attends ! | 기다리세요/기다려 |
 > | Dépêchez-vous | Dépêche-toi | 서두르세요/서둘러 |
 
+## 대화 (Dialogue)
+
+### 1. Est-ce que je peux essayer ?
+- **Client** : Bonjour, est-ce que je peux essayer cette veste ?
+- **Vendeuse** : Oui, bien sûr.
+- **Client** : Est-ce que vous avez une taille plus grande ?
+- **Vendeuse** : Vous faites quelle taille ?
+- **Client** : Je fais du 42.
+- **Vendeuse** : Un instant, s'il vous plaît.
+

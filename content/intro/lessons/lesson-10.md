@@ -25,3 +25,12 @@ related:
 > **devoir 현재형**
 > je dois · tu dois · il doit · nous devons · vous devez · ils doivent
 
+## 대화 (Dialogue)
+
+### 1. Quels sont vos loisirs ?
+- **Léa** : Quels sont tes loisirs ? Qu'est-ce que tu aimes faire ?
+- **Paul** : J'aime regarder des films et faire du sport. Et toi ?
+- **Léa** : J'aime la promenade et jouer aux jeux vidéo.
+- **Paul** : Pourquoi tu ne viens pas avec nous au cinéma ?
+- **Léa** : Parce que je dois faire mes devoirs.
+
